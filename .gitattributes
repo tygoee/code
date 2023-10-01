@@ -1,1 +1,2 @@
 *.bf linguist-language=brainfuck
+*.wrd linguist-language=json

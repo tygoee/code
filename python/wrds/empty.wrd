@@ -1,0 +1,15 @@
+{
+    "version": 0.1,
+    "info": {
+        "title": null,
+        "author": null
+    },
+    "data": {
+        "languages": {
+            "lang1": null,
+            "lang2": null
+        },
+        "words1": [],
+        "words2": []
+    }
+}
