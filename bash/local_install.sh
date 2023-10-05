@@ -1,5 +1,5 @@
 #!/bin/bash
-shopt -s extglob # cp ./!()
+shopt -s extglob # cp dir/!(...)
 
 # Exit if there are no arguments
 if [ $# -eq 0 ]; then
@@ -48,6 +48,7 @@ done
 package_name="$1"
 
 mkdir -p "$HOME/.temp/"
+trap 'rm -r "$HOME"/.temp/' EXIT
 cd "$HOME/.temp/" || { echo "Cannot CD into $HOME/.temp, exiting..." && exit 1; }
 
 # Exit if there's no internet connection
@@ -57,8 +58,8 @@ if ! ping -c 1 -W 1 "deb.debian.org" > /dev/null 2>&1; then
 fi
 
 # Download package and all dependencies
-apt download "$package_name"
-dependencies=$(apt-cache depends -i "$package_name" | grep "Depends:" | awk '{print $2}')
+apt download "$package_name" || { echo "Error while trying to install package, exiting..." && exit 1; }
+dependencies=$(apt-cache depends --recurse -i "$package_name" | grep "Depends:" | awk '{print $2}')
 
 for dependency in $dependencies; do
     apt download "$dependency"
@@ -78,13 +79,10 @@ inst_dir="$HOME/.temp/install"
 
 cp -r "$inst_dir"/!(usr) "$HOME/.local/"
 
-if [ -d usr/ ]; then
+if [ -d "$inst_dir/usr/" ]; then
     cp -r "$inst_dir/usr/"!(local) "$HOME/.local/"
 fi
 
-if [ -d usr/local/ ]; then
+if [ -d "$inst_dir/usr/local/" ]; then
     cp -r "$inst_dir/usr/local/"* "$HOME/.local/"
 fi
-
-# Remove the temp dir to clear up
-rm -r "$HOME/.temp/"
