@@ -45,5 +45,7 @@ cp -r ./usr/local/* $HOME/.local  # > /dev/null
 # Remove the temp dir
 rm -r .temp/
 
-# Add the library paths to .profile
-echo "export LD_LIBRARY_PATH=$HOME/.local/lib:$HOME/.local/lib64:$HOME/.local/lib/x86_64-linux-gnu" >> $HOME/.profile
+# Add the library paths to .profile if --setup is specified
+if [[ "$@" =- "--setup" ]]; then
+    echo "export LD_LIBRARY_PATH=$HOME/.local/lib:$HOME/.local/lib64:$HOME/.local/lib/x86_64-linux-gnu" >> $HOME/.profile
+fi
