@@ -6,6 +6,12 @@ if [ $# -eq 0 ]; then
     exit 1
 fi
 
+# Add the library paths to .profile if --setup is specified
+if [[ "$@" =- "--setup" ]]; then
+    echo "export LD_LIBRARY_PATH=$HOME/.local/lib:$HOME/.local/lib64:$HOME/.local/lib/x86_64-linux-gnu" >> $HOME/.profile
+    exit 0
+fi
+
 # Make a temp dir and cd there
 package_name="$1"
 
@@ -44,8 +50,3 @@ cp -r ./usr/local/* $HOME/.local  # > /dev/null
 
 # Remove the temp dir
 rm -r .temp/
-
-# Add the library paths to .profile if --setup is specified
-if [[ "$@" =- "--setup" ]]; then
-    echo "export LD_LIBRARY_PATH=$HOME/.local/lib:$HOME/.local/lib64:$HOME/.local/lib/x86_64-linux-gnu" >> $HOME/.profile
-fi
