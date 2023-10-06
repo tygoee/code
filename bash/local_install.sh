@@ -1,5 +1,4 @@
 #!/bin/bash
-shopt -s extglob # cp dir/!(...)
 
 # Exit if there are no arguments
 if [ $# -eq 0 ]; then
@@ -22,7 +21,7 @@ for arg in "$@"; do
 
         # Add the library path to .profile
         # if --setup is specified
-        append_content="$(printf '%s' \
+        lib_paths="$(printf '%s' \
             "export LD_LIBRARY_PATH=" \
             "$HOME/.local/lib:" \
             "$HOME/.local/lib64:" \
@@ -30,10 +29,13 @@ for arg in "$@"; do
 
         # Append to $HOME/.profile
         # if it isn't already there
-        if ! grep -q "$append_content" \
+        if ! grep -q "$lib_paths" \
                 "$HOME/.profile"; then
             echo "Adding library paths..."
-            echo "$append_content" >> "$HOME/.profile"
+            echo "$lib_paths" >> "$HOME/.profile"
+            eval "$lib_paths"
+            echo "Please reboot your computer or"\
+                 "login again to complete the setup"
         else
             echo "Library paths already"\
                  "present, ignoring..."
@@ -46,43 +48,51 @@ done
 
 # Make a temp dir and cd there
 package_name="$1"
+temp_dir="$HOME/.temp/"
 
-mkdir -p "$HOME/.temp/"
-trap 'rm -r "$HOME"/.temp/' EXIT
-cd "$HOME/.temp/" || { echo "Cannot CD into $HOME/.temp, exiting..." && exit 1; }
+mkdir -p "$temp_dir"
+cd "$temp_dir" || { echo "Cannot CD into $temp_dir, exiting..." && rm -r "$temp_dir" && exit 1; }
 
 # Exit if there's no internet connection
 if ! ping -c 1 -W 1 "deb.debian.org" > /dev/null 2>&1; then
     echo "You need an active internet connection"
+    rm -r "$temp_dir"
     exit 1
 fi
 
 # Download package and all dependencies
-apt download "$package_name" || { echo "Error while trying to install package, exiting..." && exit 1; }
-dependencies=$(apt-cache depends --recurse -i "$package_name" | grep "Depends:" | awk '{print $2}')
+apt download "$package_name" || { echo "Error while trying to install package, exiting..." && rm -r "$temp_dir" && exit 1; }
+dependencies=$(apt-cache depends --recurse -i "$package_name" | grep "Depends:" | awk '{print $2}' | sort -u)
 
 for dependency in $dependencies; do
     apt download "$dependency"
 done
 
 # Install all of them in .temp/install/
-for deb_file in "$HOME/.temp/"*.deb; do
+for deb_file in "$temp_dir"*.deb; do
+    echo "Installing ${deb_file##*/}..."
     dpkg -x "$deb_file" "install/"
-    deb_file="${deb_file##*/}"
-
-    echo "Installed $deb_file"
 done
 
 # Cd into .temp/install/ and copy all files
 # to their corresponding directories
-inst_dir="$HOME/.temp/install"
+inst_dir="$temp_dir/install"
+local_dir="$HOME/.local/"
+mkdir -p "$local_dir"
 
-cp -r "$inst_dir"/!(usr) "$HOME/.local/"
+find "$inst_dir" -mindepth 1 -maxdepth 1 ! -name 'usr' -exec cp -rn {} "$local_dir" \;
 
 if [ -d "$inst_dir/usr/" ]; then
-    cp -r "$inst_dir/usr/"!(local) "$HOME/.local/"
+    find "$inst_dir/usr/" -mindepth 1 -maxdepth 1 ! -name 'local' -exec cp -rn {} "$local_dir" \;
 fi
 
 if [ -d "$inst_dir/usr/local/" ]; then
-    cp -r "$inst_dir/usr/local/"* "$HOME/.local/"
+    cp -rn "$inst_dir/usr/local/"* "$local_dir"
 fi
+
+# Echo "Done." when the
+# installation is done
+# and remove the temp dir
+echo "Done."
+
+rm -r "$temp_dir"
