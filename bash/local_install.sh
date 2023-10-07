@@ -6,6 +6,8 @@ if [ $# -eq 0 ]; then
     exit 1
 fi
 
+package_names=()
+
 # Cycle through args
 for arg in "$@"; do
     if [ "$arg" = "--help" ]; then
@@ -43,11 +45,12 @@ for arg in "$@"; do
 
         echo "Done."
         exit 0
+    else
+        package_names+=("$arg")
     fi
 done
 
 # Make a temp dir and cd there
-package_name="$1"
 temp_dir="$HOME/.temp/"
 
 mkdir -p "$temp_dir"
@@ -61,11 +64,17 @@ if ! ping -c 1 -W 1 "deb.debian.org" > /dev/null 2>&1; then
 fi
 
 # Download package and all dependencies
-apt download "$package_name" || { echo "Error while trying to install package, exiting..." && rm -r "$temp_dir" && exit 1; }
-dependencies=$(apt-cache depends --recurse -i "$package_name" | grep "Depends:" | awk '{print $2}' | sort -u)
+for package_name in "${package_names[@]}"; do
+    apt download "$package_name" || { echo "Error while trying to install package, exiting..." && rm -r "$temp_dir" && exit 1; }
 
-for dependency in $dependencies; do
-    apt download "$dependency"
+    echo "Collecting dependencies..."
+    dependencies=$(apt-cache depends --recurse -i "$package_name" | grep "Depends:" | awk '{print $2}' | sort -u)
+
+    for dependency in $dependencies; do
+        # TODO: Ignore virtual packages using
+        # apt download .. || { apt show | grep ..; }
+        apt download "$dependency"
+    done
 done
 
 # Install all of them in .temp/install/
@@ -76,6 +85,8 @@ done
 
 # Cd into .temp/install/ and copy all files
 # to their corresponding directories
+echo "Moving files..."
+
 inst_dir="$temp_dir/install"
 local_dir="$HOME/.local/"
 mkdir -p "$local_dir"
