@@ -8,14 +8,13 @@ Some of these files moved to their own repository, and here you can see their ea
 
 ## Current projects
 
-- bash/monitors.sh - Used to setup my monitors with Xorg
 - bash/local_install.sh - Install apt packages locally, moved to [tygoee/papt](https://github.com/tygoee/papt)
 - brainfck/helloworld.bf - Just hello world in brainfck, because I was curious
 - cpp/tutorials/ - Tutorials I followed when starting with C++
 - cpp/game/ - I was trying trying to make a game with some friends, later deleted it ([tygoee/ww3game](#))
 - python/getimages/ - My first 'big' project: getting images from a online book viewer and making a pdf
 - javascript/befron/ - I helped someone with a discord bot, those were my files
-- python/wrds/ - A pretty little terminal project for practicing words, inspired by [https://wrts.nl](https://studygo.com/nl/)
+- python/wrds/ - An unfinished terminal project for practicing words, inspired by [https://wrts.nl](https://studygo.com/nl/)
 
 ## Running code
 
