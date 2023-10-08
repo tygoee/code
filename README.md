@@ -13,7 +13,8 @@ Some of these files moved to their own repository, and here you can see their ea
 - brainfck/helloworld.bf - Just hello world in brainfck, because I was curious
 - cpp/tutorials/ - Tutorials I followed when starting with C++
 - cpp/game/ - I was trying trying to make a game with some friends, later deleted it ([tygoee/ww3game](#))
-- python/getimages/ - My first 'big' project: getting images from a online book viewer and constructing a pdf
+- python/getimages/ - My first 'big' project: getting images from a online book viewer and making a pdf
+- javascript/befron/ - I helped someone with a discord bot, those were my files
 - python/wrds/ - A pretty little terminal project for practicing words, inspired by [https://wrts.nl](https://studygo.com/nl/)
 
 ## Running code
@@ -50,6 +51,14 @@ Install a [Brainfck interpreter](https://github.com/pocmo/Python-Brainfuck) and 
 
 Install [gcc/g++](https://gcc.gnu.org/) and run the file with `g++ file.cpp`. Files here don't contain any imports or libraries, so you don't need any flags to include libraries or other files. Note that some files I made are Windows-only, because they use standard headers like `conio.h`.
 
+### JavaScript
+
+When you have [node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/) installed, cd into the directory, install the required modules and run the main file:
+
+    cd javascript/(directory)
+    npm install
+    node file.js
+
 ### Python
 
 Assuming you have [Python](https://www.python.org/) installed, cd into the folder, make a virtual environment and install `requirements.txt`:
@@ -63,6 +72,6 @@ Then, just run the main python file with `python3 file.py`
 
 ---
 
-(c) Tygo Everts <br>
+© Tygo Everts | 2022 - 2023<br>
 This code is licensed under the Unlicense, <br>
 you can do anything you want with it.
