@@ -189,10 +189,10 @@ class Words:
 
         word1 = ""
         break_outer = False
-        i = 0.5
+        i = 1
         while True:
-            i = i + 0.5
-            if (i).is_integer():  # word 1
+            i = i + 1
+            if i % 2 == 0:  # word 1
                 while True:
                     word1 = input(f"{int(i)}: ")
                     if word1 == '':
