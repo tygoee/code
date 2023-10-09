@@ -194,7 +194,7 @@ class Words:
             i = i + 1
             if i % 2 == 0:  # word 1
                 while True:
-                    word1 = input(f"{int(i)}: ")
+                    word1 = input(f"{int(i/2)}: ")
                     if word1 == '':
                         break_outer = True
                     elif word1 == '*':
@@ -206,7 +206,7 @@ class Words:
             else:  # word 2
                 while True:
                     word2 = input(
-                        f"\033[1A{int(i-0.5)}: {word1} = ")
+                        f"\033[1A{int(i/2-0.5)}: {word1} = ")
                     if not word2 == '':
                         words2.append(word2)
                         break
