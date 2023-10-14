@@ -1,16 +1,24 @@
-from os import listdir, mkdir, path, remove, rmdir
-from urllib.request import urlopen
 from io import BytesIO
+from os import listdir, mkdir, path, remove, rmdir
+from PIL import Image
+from urllib.request import urlopen
+
+from getch import getch
 from loadingbar import bar
-from PIL import Image  # pip install Pillow
 
 
-def noordhoff(url: str) -> list[Image.Image]:
+def noordhoff(base_url: str) -> list[Image.Image]:
+    """
+    Download images from noordhoff
+
+    :param base_url: The base url
+    """
+
     images: list[Image.Image] = []
 
     # Cycle through all pages and download them
     for page in bar(range(1, 298)):
-        with urlopen(url + str(page) + '.jpg') as response:
+        with urlopen(base_url + str(page) + '.jpg') as response:
             images.append(Image.open(BytesIO(response.read())))
 
     # Return the images list
@@ -18,10 +26,15 @@ def noordhoff(url: str) -> list[Image.Image]:
 
 
 def jpgtopdf(images: list[Image.Image]) -> None:
-    """Converts jpg images to pdf files"""
+    """
+    Converts jpg images to pdf files
+
+    :param images: A list of Pillow images
+    """
+
     if path.isdir('docs'):
         for i in listdir('docs'):
-            remove(i)
+            remove(f'docs/{i}')
         rmdir('docs')
 
     mkdir('docs')
@@ -33,7 +46,8 @@ def jpgtopdf(images: list[Image.Image]) -> None:
         pdf_path, 'PDF', resolution=100.0, save_all=True, append_images=images[1:]
     )
 
-    if input("Press enter to open document. ") == '':
+    print("Press enter to open the document or any other character to exit. ", end='')
+    if getch() == '':
         from os import system
         from sys import platform
 
@@ -42,6 +56,8 @@ def jpgtopdf(images: list[Image.Image]) -> None:
             else '' if platform == 'win32' else ''
 
         system(prefix + pdf_path)
+    else:
+        print(end='\n')
 
 
 if __name__ == '__main__':

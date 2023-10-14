@@ -26,9 +26,9 @@ def bar(iterator: Collection[Any],
     elif bar_length >= max_terminal_width:
         bar_length = max_terminal_width
 
-    for i in iterator:
+    for idx, item in enumerate(iterator):
         # Calculate progress
-        progress, status = round(i / len(iterator) * 100, 0), ''
+        progress, status = round(idx / len(iterator) * 100, 0), ''
         if progress >= 100:
             progress, status = 100, '\r\n'
 
@@ -48,4 +48,4 @@ def bar(iterator: Collection[Any],
             '#' * block + ' ' * (bar_length - block), status
         ), end='')
 
-        yield i
+        yield item
