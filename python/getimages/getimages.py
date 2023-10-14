@@ -10,9 +10,7 @@ def noordhoff(url: str) -> list[Image.Image]:
 
     # Cycle through all pages and download them
     for page in bar(range(1, 298)):
-        url += str(page) + '.jpg'
-
-        with urlopen(url) as response:
+        with urlopen(url + str(page) + '.jpg') as response:
             images.append(Image.open(BytesIO(response.read())))
 
     # Return the images list

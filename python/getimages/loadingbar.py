@@ -32,7 +32,7 @@ def bar(iterator: Collection[Any],
         if progress >= 100:
             progress, status = 100, '\r\n'
 
-        block = int(round(bar_length * progress))
+        block = int(round(bar_length / 100 * progress))
 
         # Assign the width filler
         if progress < 10:
