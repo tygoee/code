@@ -13,8 +13,9 @@ Some of these files moved to their own repository, and here you can see their ea
 - cpp/tutorials/ - Tutorials I followed when starting with C++
 - cpp/game/ - I was trying trying to make a game with some friends, later deleted it ([tygoee/ww3game](#))
 - python/getimages/ - My first 'big' project: getting images from a online book viewer and making a pdf
-- javascript/befron/ - I helped someone with a discord bot, those were my files
 - python/wrds/ - An unfinished terminal project for practicing words, inspired by [https://wrts.nl](https://studygo.com/nl/)
+- python/autolibs/ - A way to import libraries automatically (this is good practise)
+- javascript/befron/ - I helped someone with a discord bot, those were my files
 
 ## Running code
 
