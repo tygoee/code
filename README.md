@@ -1,4 +1,4 @@
-# tygoee/code
+# tygoee/code-snippets
 
 Just some small coding projects
 
@@ -72,6 +72,6 @@ Then, just run the main python file with `python3 file.py`
 
 ---
 
-© Tygo Everts | 2022 - 2023<br>
-This code is licensed under the Unlicense, <br>
+© Tygo Everts | 2022 - 2023  
+This code is licensed under the Unlicense,  
 you can do anything you want with it.
