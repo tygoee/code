@@ -34,18 +34,9 @@ def bar(iterator: Collection[Any],
 
         block = int(round(bar_length / 100 * progress))
 
-        # Assign the width filler
-        if progress < 10:
-            width_filler = '  '
-        elif progress < 100:
-            width_filler = ' '
-        else:
-            width_filler = ''
-
         # Print the loading bar
-        print("\r{}{:.0f}% [{}]{}".format(
-            width_filler, progress,
-            '#' * block + ' ' * (bar_length - block), status
+        print("\r{:3.0f}% [{}]{}".format(
+            progress, '#' * block + ' ' * (bar_length - block), status
         ), end='')
 
         yield item
