@@ -6,7 +6,7 @@ abs() {
     #   abs "$num"
 
     if [ "$1" -lt 0 ]; then
-        echo $((-$1))
+        echo "$((-$1))"
     else
         echo "$1"
     fi
@@ -43,3 +43,28 @@ any() {
     echo false
     return
 }
+
+bin() {
+    # Returns the binary representation of
+    # a number in the form '0b**'. Usage:
+    #   bin $num
+
+    result=""
+
+    if [ "$1" -eq 0 ]; then
+        echo "0b0"
+        return
+    elif [ "$1" -le 0 ]; then
+        result=-
+        set -- "$(abs "$1")"
+    fi
+
+    while [ "$1" -gt 0 ]; do
+        result="$(($1 % 2))$result"
+        set -- "$(($1 / 2))"
+    done
+
+    echo "0b$result"
+    return
+}
+
