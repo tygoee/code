@@ -1,5 +1,6 @@
 #!/bin/bash
 
+
 abs() {
     # Calculate the absolute value
     # of an integer. Usage:
@@ -11,6 +12,7 @@ abs() {
         echo "$1"
     fi
 }
+
 
 all() {
     # Check if all elements in an array
@@ -28,6 +30,7 @@ all() {
     return
 }
 
+
 any() {
     # Check if a single element in an
     # array evaluates to true. Usage:
@@ -43,6 +46,7 @@ any() {
     echo false
     return
 }
+
 
 bin() {
     # Returns the binary representation of
@@ -67,4 +71,3 @@ bin() {
     echo "0b$result"
     return
 }
-
