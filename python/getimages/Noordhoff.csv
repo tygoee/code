@@ -1,0 +1,33 @@
+Vak,Leerjaar,Niveau,Methode,Boek-ID,Ebook,Ebook-ID,Tijdstempel,CDN-ID
+Aardrijkskunde,1,havo / vwo,buiteNLand,4a32ad6c-6b22-4fdc-abb8-f26e9aef70e8,buiteNLand 1 HAVO/VWO Leerboek,cd2c73e5-77a2-4314-8763-db82a8bf7185,20180424091942,
+,,,,,buiteNLand 1 HAVO/VWO Werkboek,190e6868-1872-4940-8ab1-fbd14b69fbcd,20180424113216,
+,,,,,Leerwerkboek 1-havo-vwo FLEX (5e ed.),36c051f2-4cfe-4fee-b42a-0d119c299706,20230329103934,d4e942ef-0c15-4d69-bfbe-763ee67d97f6
+Aardrijkskunde,1,havo / vwo,buiteNLand,91983e11-35b9-4f8b-8057-85b4e2857c5a,buiteNLand 1 TTO Textbook,2a35cb76-6c1e-4e4f-bf6c-9c6144320a6c,20180424100501,
+,,,,,buiteNLand 1 HAVO/VWO Workbook,2d31b8f5-9951-46fa-8bc0-b73d9350f8dc,20180424115226,
+,,,,,Leerwerkboek 1-havo-vwo TTO FLEX English edition (5e Ed.),cc035d24-83f4-4858-ba57-97b3aebf5115,20230531063510,23bba2e2-62e2-4960-ab38-99b8d2450b38
+Aardrijkskunde,1,vmbo bk,buiteNLand,7879483c-b81b-42f5-b723-f0cf231cd7a7,buiteNLand 1 VMBO-BK Leerboek,a5460ce2-3cc3-4842-8cbd-975ca41ffe1a,20180424130324,
+,,,,,buiteNLand 1 VMBO-BK Werkboek,d670262e-aef4-4e64-89c4-3ff4f1574ecc,20180424111133,
+,,,,,Leerwerkboek 1-vmbo-bk FLEX (5e Ed.),95b3f0cd-b9fa-4cd4-b32e-a8da5f257994,20230522101051,c1f4d14d-2a3d-4994-9923-8209323e4a9f
+Aardrijkskunde,1,vmbo kgt,buiteNLand,67292ae4-217e-461a-993a-61d204ab4615,buiteNLand 1 VMBO-KGT Leerboek,5d1afbc9-f00b-49f6-9a60-1e1f536c6031,20180424085801,
+,,,,,buiteNLand 1 VMBO-KGT Werkboek,d47334bb-39d8-47be-ab8d-4d86743697ee,20180424110240,
+,,,,,Leerwerkboek 1-vmbo-kgt FLEX (5e ed.),4fce5bee-12dd-49e7-a258-8f1bde274520,20230329142901,b987ba30-87d2-4640-bff2-6ba7353c65b8
+Aardrijkskunde,1,vmbo t / havo,buiteNLand,2189c383-7b4f-4c34-8851-4e38cf5227ed,buiteNLand 1 VMBO-TH Leerboek,92dd48ab-70a7-45c9-bb6f-dde4f30d7002,20180424090823,
+,,,,,buiteNLand 1 VMBO-TH Werkboek,0ddc0fd9-16e6-4519-9858-70de0a23491e,20180424112310,
+,,,,,Leerwerkboek 1-vmbo-t havo FLEX (5e Ed.),37ff6091-84df-4648-b3f5-7e2aee6e8abc,20230523122011,f6c4378a-30be-40d4-9fd1-1977aaac8c40
+Aardrijkskunde,1,vwo,buiteNLand,1a51cc03-1a3d-4d3d-9c67-1ceda5bb27db,buiteNLand 1 VWO Leerboek,234687b3-f591-4732-9b65-8ec88063d70e,20180424094918,
+,,,,,buiteNLand 1 VWO Werkboek,0066cc92-fba9-493e-b691-ec38d8dc2090,20180424120300,
+,,,,,Leerwerkboek 1-vwo FLEX (5e Ed.),7a54ebee-74fa-41ed-92b8-9e2b92e101a0,20230522102329,bf74faef-910b-46b8-9735-798d67d4feb3
+Aardrijkskunde,2,havo / vwo,buiteNLand,35f43beb-e971-46ed-8448-649ce09ef3b4,buiteNLand 2 HAVO/VWO Leerboek,de290f8d-8e6a-40ec-b5fd-26c74fa25049,20180813090842,
+,,,,,buiteNLand 2 HAVO/VWO Werkboek,b4fb96c6-e90a-4ed4-9032-9dca792ce97f,20180918073740,
+Aardrijkskunde,2,havo / vwo,buiteNLand,7083cd38-5880-4381-91d2-08b76767df29,buiteNLand 2 HAVO/VWO Textbook,d250e050-de54-435f-b32f-c4849245d9d0,20190225142221,
+,,,,,buiteNLand 2 HAVO/VWO Workbook,511219e7-eea6-47a7-bc04-0fbca6086c71,20190304122452,
+Aardrijkskunde,2,vmbo bk,buiteNLand,c2a9bcbf-e9d8-4548-a9bd-e6e0d721722f,buiteNLand 2 VMBO-BK Leerboek,0865ca48-9517-4005-9f48-ecfb2dbde774,20181227085332,
+,,,,,buiteNLand 2 VMBO-BK Werkboek,ab308d7b-7d51-4166-9007-741b76de1015,20190318075517,
+Aardrijkskunde,2,vmbo kgt,buiteNLand,b9f8d88e-82ef-4a88-a60d-5f658c6028d0,buiteNLand 2 VMBO-KGT Leerboek,fdc7dd19-e31d-480c-aeb0-439645f7f21e,20180813070756,
+,,,,,buiteNLand 2 VMBO-KGT Werkboek,c43e7f7e-55b7-486e-98d2-39e3ab090af1,20180830085853,
+Aardrijkskunde,2,vmbo t / havo,buiteNLand,37786bd9-cc96-4fb3-a78d-3a7f9dbe2f31,buiteNLand 2 VMBO-TH Leerboek,967db9d6-5241-417d-a12f-9682b1c99a18,20190109124014,
+,,,,,buiteNLand 2 VMBO-TH Werkboek,bce0ab28-f843-4cb0-9cb8-027c903e06c4,20190219082455,
+Aardrijkskunde,2,vwo,buiteNLand,00ac7080-32c1-4985-81c1-cfc63451104d,buiteNLand 2 VWO Leerboek,83f4b14d-0fde-4255-9867-19c88aafce9d,20181227083733,
+,,,,,buiteNLand 2 VWO Werkboek,93535daa-a0b6-4f70-bee0-cd55575643ed,20190226115931,
+Aardrijkskunde,3,havo,buiteNLand,cc2873b3-a9d5-46d1-828f-384a9291197d,buiteNLand 3 HAVO Leerboek,4abe91aa-a1bf-4496-acfb-9b5723aef76b,20191016070545,
+,,,,,buiteNLand 3 HAVO Werkboek,3eef36a6-e58c-4dd2-9956-27e3738e441f,20200106095242,

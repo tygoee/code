@@ -21,22 +21,22 @@ def bar(iterator: Collection[Any],
     # Assign or correct bar_length
     max_terminal_width = get_terminal_size().columns - 8
 
-    if bar_length == None:
+    if bar_length is None:
         bar_length = max_terminal_width
     elif bar_length >= max_terminal_width:
         bar_length = max_terminal_width
 
     for idx, item in enumerate(iterator):
         # Calculate progress
-        progress, status = round(idx / len(iterator) * 100, 0), ''
+        progress = round(idx / len(iterator) * 100, 0)
         if progress >= 100:
-            progress, status = 100, '\r\n'
+            progress = 100
 
         block = int(round(bar_length / 100 * progress))
 
         # Print the loading bar
-        print("\r{:3.0f}% [{}]{}".format(
-            progress, '#' * block + ' ' * (bar_length - block), status
-        ), end='')
+        print("\r{:3.0f}% [{}]".format(
+            progress, '#' * block + ' ' * (bar_length - block)
+        ), end=' ')
 
         yield item
