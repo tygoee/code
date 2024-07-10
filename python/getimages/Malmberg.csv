@@ -1,0 +1,64 @@
+Methode,Categorie,Subcategorie,Naam,ID
+Na Klar!,Onderbouw MAX,Leerjaar 1-2,1-2 vmbo-bk MAX Leerwerkboek A,na_klar_12bk_lwb_a_bladerboek
+,,,1-2 vmbo-bk MAX Leerwerkboek B,na_klar_12bk_lwb_b_bladerboek
+,,,1-2 vmbo-gt/havo MAX Leerwerkboek A,na_klar_12gt-h_lwb_a_bladerboek
+,,,1-2 vmbo-gt/havo MAX Leerwerkboek B,na_klar_12gth_lwb_b_bladerboek
+,,,1-2 havo/vwo MAX Leerwerkboek A,na_klar_12hv_lwb_a_bladerboek
+,,,1-2 havo/vwo MAX Leerwerkboek B,na_klar_12hv_lwb_b_bladerboek
+,,,1-2 vwo/gymnasium MAX Leerwerkboek A,na_klar_12vg_lwb_a_bladerboek
+,,,1-2 vwo/gymnasium MAX Leerwerkboek B,na_klar_12vg_lwb_b_bladerboek
+,,Leerjaar 3,3 havo MAX Leerwerkboek A,593543-03_nk_3h_lwb_a_bladerboek
+,,,3 havo MAX Leerwerkboek B,593544-03_nk_3h_lwb_b_bladerboek
+,,,3 vwo/gymnasium MAX Leerwerkboek A,593545-03_nk_3vg_lwb_a_bladerboek
+,,,3 vwo/gymnasium MAX Leerwerkboek B,593546-03_nk_3vg_lwb_b_bladerboek
+,,Handbuch,1/2/3 havo/vwo/gymnasium MAX Handbuch,na_klar_1-3hvg_hb_bladerboek
+,Bovenbouw vmbo MAX,Leerjaar 3,3 vmbo-bk MAX Leerwerkboek A,na_klar_3bk_lwb_a_bladerboek
+,,,3 vmbo-bk MAX Leerwerkboek B,na_klar_3bk_lwb_b_bladerboek
+,,,3 vmbo-gt MAX Leerwerkboek A,na_klar_3gt_lwb_a_bladerboek
+,,,3 vmbo-gt MAX Leerwerkboek B ,na_klar_3gt_lwb_b_bladerboek
+,,Leerjaar 4,4 vmbo-bk MAX Leerwerkboek,na_klar_4bk_lwb_bladerboek
+,,,4 vmbo-gt MAX Leerwerkboek,na_klar_4gt_lwb_bladerboek
+,,Handbuch,3/4 vmbo MAX Handbuch ,na_klar_vmbo-bb_hb_bladerboek
+,Bovenbouw havo/vwo MAX,Leerjaar 4,4 havo MAX Leerwerkboek,na_klar_4h_lwb_bladerboek
+,,,4 vwo/gymnasium MAX Leerwerkboek,na_klar_4vg_lwb_bladerboek
+,,Leerjaar 5,5 havo MAX Leerwerkboek,605384_nk_5h_lwb_bladerboek
+,,,5 vwo/gymnasium MAX Leerwerkboek,599570-01_nk_5vg_lwb_bladerboek
+,,Leerjaar 6,6 vwo/gymnasium MAX Leerwerkboek ,na_klar_6vg_lwb_bladerboek
+,,Handbuch,4/5/6 havo/vwo/gymnasium MAX Handbuch,na_klar_4-6hvg_hb_bladerboek
+,Onderbouw ed. 3,Leerjaar 1-2,1-2 vmbo-bk ed. 3 Tekstboek,540486_nk_12bk_tb_bladerboek
+,,,1-2 vmbo-kgt/havo ed. 3 Tekstboek,540529_nk_12kgt-h_tb_bladerboek
+,,,1-2 havo/vwo ed. 3 Tekstboek,540537_nk_12hv_tb_bladerboek
+,,,1-2 vwo ed. 3 Tekstboek,540542_nk_12_v_tb_bladerboek
+,,Leerjaar 3,3 havo ed. 3 Tekstboek,540547_nk_3h_tb_bladerboek
+,,,3 vwo ed. 3 Tekstboek,540563_nk_3v_tb_bladerboek
+,Bovenbouw vmbo ed. 3,Leerjaar 3,3 vmbo-bk ed. 3 Tekstboek,553696_nk_3bk_tb_bladerboek
+,,,3 vmbo-kgt ed. 3 Tekstboek,553733_nk_3kgt_tb_bladerboek
+,,Leerjaar 4,4 vmbo-bk ed. 3 Tekstboek,553739_nk_4bk_tb_bladerboek
+,,,4 vmbo-kgt ed. 3 Tekstboek,553745_nk_4kgt_tb_bladerboek
+,Bovenbouw havo/vwo ed. 4,Leerjaar 4,4 havo ed. 4 Tekstboek,543596_nk_4h_tb_bladerboek
+,,,4 vwo ed. 4 Tekstboek ,543612_nk_4v_tb_bladerboek
+,,Leerjaar 5,5 havo ed. 4 Tekstboek,543603_nk_5h_tb_bladerboek
+,,,5 havo ed. 4 Tekstboek,543617_nk_5v_tb_bladerboek
+,,Leerjaar 6,6 vwo ed. 4 Tekstboek,543622_nk_6v_tb_bladerboek
+Praktische Economie,Leerjaar 3,havo,3 havo Vijfde druk Leeropdrachtenboek,559855_pe_3h_lob_bladerboek
+,,,3 havo Release 2019 Leeropdrachtenboek,589116_pe_3h_lob_bladerboek
+,,vwo,3 vwo Vijfde druk Leeropdrachtenboek,559856_pe_3vwo_lob_bladerboek
+,,,3 vwo Release 2019 Leeropdrachtenboek,589117_pe_3vwo_lob_bladerboek
+,,vwo TTO,3 vwo TTO Vijfde druk Leeropdrachtenboek,559857_pe_3vwo_tto_tb_bladerboek
+,,,3 vwo TTO release 2019 Leeropdrachtenboek,589118_pe_3vwo_tto_lob_bladerboek
+,Leerjaar 4+5+6,vwo,"4+5+6 vwo release 2020 Leeropdrachtenboek M1 Schaarste, geld en handel",593593_pe_456vwo_m1_bladerboek
+,,,4+5+6 vwo release 2020 Leeropdrachtenboek M2 Vraag en aanbod,593594_pe-456vwo_m2_bladerboek
+,,,4+5+6 vwo release 2020 Leeropdrachtenboek M3 Markt en overheid,593595_pe_456vwo_m3_bladerboek
+,,,"4+5+6 vwo release 2021 Leeropdrachtenboek M4 Heden, verleden en toekomst",593596_pe_456vwo_m4_lob_bladerboek
+,,,4+5+6 vwo release 2021 Leeropdrachtenboek M5 Speltheorie,593597_pe_456vwo_m5_bladerboek
+,,,4+5+6 vwo release 2021 Leeropdrachtenboek M6 Risico en rendement,593598_pe_vwo_m6_bladerboek
+,,,4+5+6 vwo release 2021 Leeropdrachtenboek M7 Economische groei,593599_pe_lob_vwo_m7_bladerboek-1
+,,,4+5+6 vwo release 2021 Leeropdrachtenboek M8 Conjunctuur en economisch beleid,593600_pe_vwo_m8_bladerboek
+,Leerjaar 4+5,havo,"4+5 havo release 2021 Leeropdrachtenboek M1 Schaarste, geld en handel",593585_pe_45havo_m1_bladerboek
+,,,4+5 havo release 2021 Leeropdrachtenboek M2 Vraag en aanbod,593586_pe_45havo_m2_bladerboek
+,,,4+5 havo release 2021 Leeropdrachtenboek M3 Markt en overheid,593587_pe_45havo_m3_bladerboek
+,,,"4+5 havo release 2021 Leeropdrachtenboek M4 Heden, verleden en toekomst",593588_pe_45havo_m4_bladerboek
+,,,4+5 havo release 2021 Leeropdrachtenboek M5 Speltheorie,593589-pe-havo-m5_bladerboek
+,,,4+5 havo release 2022 Leeropdrachtenboek M6 Risico en verzekeren,593590-01_pe_bb_m6_havo_bladerboek
+,,,4+5 havo release 2022 Leeropdrachtenboek M7 Economische groei,593591-01_pe_bb_m7_havo_bladerboek
+,,,4+5 havo release 2022 Leeropdrachtenboek M8 Conjuctuur en economisch beleid ,593592-01_pe_havo_m8_bladerboek
