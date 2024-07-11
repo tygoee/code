@@ -13,6 +13,10 @@ import csv
 class Noordhoff:
     def __init__(self, file: str):
         for name, url in self.load_csv(file):
+            # Skip if file is already downloaded
+            if path.isfile(f"docs/{name}.pdf"):
+                continue
+
             self.loadingbar: Generator[Any, Any, None]
             self.name = name
             self.url = url
