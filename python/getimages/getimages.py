@@ -102,6 +102,8 @@ class Noordhoff:
             raise FileNotFoundError(f"{self.name} was not found")
 
         # Save all the images as a pdf in pdf_path
+
+        # TODO: Organize by folder (with method as foldername)
         images[0].save(
             pdf_path, 'PDF', resolution=100.0,
             save_all=True, append_images=images[1:]
