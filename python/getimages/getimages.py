@@ -12,12 +12,13 @@ import csv
 
 class Noordhoff:
     def __init__(self, file: str):
-        for name, url in self.load_csv(file):
+        for method, name, url in self.load_csv(file):
             # Skip if file is already downloaded
-            if path.isfile(f"docs/{name}.pdf"):
+            if path.isfile(f"docs/{method}/{name}.pdf"):
                 continue
 
             self.loadingbar: Generator[Any, Any, None]
+            self.method = method
             self.name = name
             self.url = url
 
@@ -96,14 +97,16 @@ class Noordhoff:
         if not path.isdir('docs'):
             mkdir('docs')
 
-        pdf_path = path.join('.', 'docs', self.name + '.pdf')
+        # Add method directory
+        if not path.isdir(path.join('docs', self.method)):
+            mkdir(path.join('docs', self.method))
+
+        pdf_path = path.join('.', 'docs', self.method, self.name + '.pdf')
 
         if len(images) < 1:
             raise FileNotFoundError(f"{self.name} was not found")
 
         # Save all the images as a pdf in pdf_path
-
-        # TODO: Organize by folder (with method as foldername)
         images[0].save(
             pdf_path, 'PDF', resolution=100.0,
             save_all=True, append_images=images[1:]
@@ -111,13 +114,15 @@ class Noordhoff:
 
         print("Download complete.\n")
 
-    def load_csv(self, file: str) -> Generator[tuple[str, str], None, None]:
+    def load_csv(self, file: str) -> Generator[tuple[str, str, str],
+                                               None, None]:
         with open(file, 'r') as fp:
             next(fp)  # Skip the first line
 
             data = csv.reader(fp)
-
+            method = ''
             for row in data:
+                method = row[3] if row[3] != '' else method
                 name = row[5].replace('/', '-')  # For file names
                 ebookid = row[6] if not row[8] else row[8]
                 timestamp = row[7]
@@ -125,7 +130,7 @@ class Noordhoff:
                 url = f"https://cdp.contentdelivery.nu/{ebookid}/" \
                     f"{timestamp}/extract/assets/img/layout/"
 
-                yield name, url
+                yield method, name, url
 
 
 if __name__ == '__main__':

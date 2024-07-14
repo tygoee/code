@@ -1,17 +1,26 @@
 import urllib.request
-from os import path
+from os import path, mkdir
 import csv
 import io
+
+if not path.isdir('docs'):
+    mkdir('docs')
+
 
 with open("Malmberg.csv") as fp:
     next(fp)
 
     data = csv.reader(fp)
 
+    method = ''
     for row in data:
+        method = row[0] if row[0] != '' else method
         book_id = row[4]
 
-        if path.isfile(f'docs/{book_id}.pdf'):
+        if not path.isdir(f'docs/{method}'):
+            mkdir(f'docs/{method}')
+
+        if path.isfile(f'docs/{method}/{book_id}.pdf'):
             continue
 
         response = urllib.request.urlopen(
@@ -25,5 +34,7 @@ with open("Malmberg.csv") as fp:
 
             href = line[line.find('href="')+6:line.rfind('"')]
 
+        print(book_id)
+
         urllib.request.urlretrieve(
-            f"https://view.publitas.com{href}", f'docs/{book_id}.pdf')
+            f"https://view.publitas.com{href}", f'docs/{method}/{book_id}.pdf')
