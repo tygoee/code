@@ -31,6 +31,14 @@ class Noordhoff:
         :param url: The url where it downloads from
         """
 
+        # A random blank page lol
+        if url == ("https://cdp.contentdelivery.nu/"
+                   "3fc7bebe-f618-4244-9a98-d67db38ad2ca/20180213134011/"
+                   "extract/assets/img/layout/65.jpg"):
+            next(self.loadingbar)
+
+            return Image.new('RGB', (1654, 2339), color=(255, 255, 255))
+
         # Define the return_image lambda function
         return_image: Callable[[str], Image.Image] = (
             lambda url: Image.open(BytesIO(urlopen(url).read())))
@@ -122,7 +130,7 @@ class Noordhoff:
             data = csv.reader(fp)
             method = ''
             for row in data:
-                method = row[3] if row[3] != '' else method
+                method = row[1] if row[1] != '' else method
                 name = row[5].replace('/', '-')  # For file names
                 ebookid = row[6] if not row[8] else row[8]
                 timestamp = row[7]

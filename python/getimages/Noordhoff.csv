@@ -1,96 +1,96 @@
-Vak,Leerjaar,Niveau,Methode,Boek-ID,Ebook,Ebook-ID,Tijdstempel,CDN-ID
-Aardrijkskunde,1,havo / vwo,buiteNLand,4a32ad6c-6b22-4fdc-abb8-f26e9aef70e8,buiteNLand 1 HAVO/VWO Leerboek,cd2c73e5-77a2-4314-8763-db82a8bf7185,20180424091942,
+Vak,Methode,Leerjaar,Niveau,Boek-ID,Ebook,Ebook-ID,Tijdstempel,CDN-ID
+Aardrijkskunde,buiteNLand,1,havo / vwo,4a32ad6c-6b22-4fdc-abb8-f26e9aef70e8,buiteNLand 1 HAVO/VWO Leerboek,cd2c73e5-77a2-4314-8763-db82a8bf7185,20180424091942,
 ,,,,,buiteNLand 1 HAVO/VWO Werkboek,190e6868-1872-4940-8ab1-fbd14b69fbcd,20180424113216,
 ,,,,,Leerwerkboek 1-havo-vwo FLEX (5e ed.),36c051f2-4cfe-4fee-b42a-0d119c299706,20230329103934,d4e942ef-0c15-4d69-bfbe-763ee67d97f6
-Aardrijkskunde,1,havo / vwo,buiteNLand,91983e11-35b9-4f8b-8057-85b4e2857c5a,buiteNLand 1 TTO Textbook,2a35cb76-6c1e-4e4f-bf6c-9c6144320a6c,20180424100501,
+Aardrijkskunde,buiteNLand,1,havo / vwo,91983e11-35b9-4f8b-8057-85b4e2857c5a,buiteNLand 1 TTO Textbook,2a35cb76-6c1e-4e4f-bf6c-9c6144320a6c,20180424100501,
 ,,,,,buiteNLand 1 HAVO/VWO Workbook,2d31b8f5-9951-46fa-8bc0-b73d9350f8dc,20180424115226,
 ,,,,,Leerwerkboek 1-havo-vwo TTO FLEX English edition (5e Ed.),cc035d24-83f4-4858-ba57-97b3aebf5115,20230531063510,23bba2e2-62e2-4960-ab38-99b8d2450b38
-Aardrijkskunde,1,vmbo bk,buiteNLand,7879483c-b81b-42f5-b723-f0cf231cd7a7,buiteNLand 1 VMBO-BK Leerboek,a5460ce2-3cc3-4842-8cbd-975ca41ffe1a,20180424130324,
+Aardrijkskunde,buiteNLand,1,vmbo bk,7879483c-b81b-42f5-b723-f0cf231cd7a7,buiteNLand 1 VMBO-BK Leerboek,a5460ce2-3cc3-4842-8cbd-975ca41ffe1a,20180424130324,
 ,,,,,buiteNLand 1 VMBO-BK Werkboek,d670262e-aef4-4e64-89c4-3ff4f1574ecc,20180424111133,
 ,,,,,Leerwerkboek 1-vmbo-bk FLEX (5e Ed.),95b3f0cd-b9fa-4cd4-b32e-a8da5f257994,20230522101051,c1f4d14d-2a3d-4994-9923-8209323e4a9f
-Aardrijkskunde,1,vmbo kgt,buiteNLand,67292ae4-217e-461a-993a-61d204ab4615,buiteNLand 1 VMBO-KGT Leerboek,5d1afbc9-f00b-49f6-9a60-1e1f536c6031,20180424085801,
+Aardrijkskunde,buiteNLand,1,vmbo kgt,67292ae4-217e-461a-993a-61d204ab4615,buiteNLand 1 VMBO-KGT Leerboek,5d1afbc9-f00b-49f6-9a60-1e1f536c6031,20180424085801,
 ,,,,,buiteNLand 1 VMBO-KGT Werkboek,d47334bb-39d8-47be-ab8d-4d86743697ee,20180424110240,
 ,,,,,Leerwerkboek 1-vmbo-kgt FLEX (5e ed.),4fce5bee-12dd-49e7-a258-8f1bde274520,20230329142901,b987ba30-87d2-4640-bff2-6ba7353c65b8
-Aardrijkskunde,1,vmbo t / havo,buiteNLand,2189c383-7b4f-4c34-8851-4e38cf5227ed,buiteNLand 1 VMBO-TH Leerboek,92dd48ab-70a7-45c9-bb6f-dde4f30d7002,20180424090823,
+Aardrijkskunde,buiteNLand,1,vmbo t / havo,2189c383-7b4f-4c34-8851-4e38cf5227ed,buiteNLand 1 VMBO-TH Leerboek,92dd48ab-70a7-45c9-bb6f-dde4f30d7002,20180424090823,
 ,,,,,buiteNLand 1 VMBO-TH Werkboek,0ddc0fd9-16e6-4519-9858-70de0a23491e,20180424112310,
 ,,,,,Leerwerkboek 1-vmbo-t havo FLEX (5e Ed.),37ff6091-84df-4648-b3f5-7e2aee6e8abc,20230523122011,f6c4378a-30be-40d4-9fd1-1977aaac8c40
-Aardrijkskunde,1,vwo,buiteNLand,1a51cc03-1a3d-4d3d-9c67-1ceda5bb27db,buiteNLand 1 VWO Leerboek,234687b3-f591-4732-9b65-8ec88063d70e,20180424094918,
+Aardrijkskunde,buiteNLand,1,vwo,1a51cc03-1a3d-4d3d-9c67-1ceda5bb27db,buiteNLand 1 VWO Leerboek,234687b3-f591-4732-9b65-8ec88063d70e,20180424094918,
 ,,,,,buiteNLand 1 VWO Werkboek,0066cc92-fba9-493e-b691-ec38d8dc2090,20180424120300,
 ,,,,,Leerwerkboek 1-vwo FLEX (5e Ed.),7a54ebee-74fa-41ed-92b8-9e2b92e101a0,20230522102329,bf74faef-910b-46b8-9735-798d67d4feb3
-Aardrijkskunde,2,havo / vwo,buiteNLand,35f43beb-e971-46ed-8448-649ce09ef3b4,buiteNLand 2 HAVO/VWO Leerboek,de290f8d-8e6a-40ec-b5fd-26c74fa25049,20180813090842,
+Aardrijkskunde,buiteNLand,2,havo / vwo,35f43beb-e971-46ed-8448-649ce09ef3b4,buiteNLand 2 HAVO/VWO Leerboek,de290f8d-8e6a-40ec-b5fd-26c74fa25049,20180813090842,
 ,,,,,buiteNLand 2 HAVO/VWO Werkboek,b4fb96c6-e90a-4ed4-9032-9dca792ce97f,20180918073740,
-Aardrijkskunde,2,havo / vwo,buiteNLand,7083cd38-5880-4381-91d2-08b76767df29,buiteNLand 2 HAVO/VWO Textbook,d250e050-de54-435f-b32f-c4849245d9d0,20190225142221,
+Aardrijkskunde,buiteNLand,2,havo / vwo,7083cd38-5880-4381-91d2-08b76767df29,buiteNLand 2 HAVO/VWO Textbook,d250e050-de54-435f-b32f-c4849245d9d0,20190225142221,
 ,,,,,buiteNLand 2 HAVO/VWO Workbook,511219e7-eea6-47a7-bc04-0fbca6086c71,20190304122452,
-Aardrijkskunde,2,vmbo bk,buiteNLand,c2a9bcbf-e9d8-4548-a9bd-e6e0d721722f,buiteNLand 2 VMBO-BK Leerboek,0865ca48-9517-4005-9f48-ecfb2dbde774,20181227085332,
+Aardrijkskunde,buiteNLand,2,vmbo bk,c2a9bcbf-e9d8-4548-a9bd-e6e0d721722f,buiteNLand 2 VMBO-BK Leerboek,0865ca48-9517-4005-9f48-ecfb2dbde774,20181227085332,
 ,,,,,buiteNLand 2 VMBO-BK Werkboek,ab308d7b-7d51-4166-9007-741b76de1015,20190318075517,
-Aardrijkskunde,2,vmbo kgt,buiteNLand,b9f8d88e-82ef-4a88-a60d-5f658c6028d0,buiteNLand 2 VMBO-KGT Leerboek,fdc7dd19-e31d-480c-aeb0-439645f7f21e,20180813070756,
+Aardrijkskunde,buiteNLand,2,vmbo kgt,b9f8d88e-82ef-4a88-a60d-5f658c6028d0,buiteNLand 2 VMBO-KGT Leerboek,fdc7dd19-e31d-480c-aeb0-439645f7f21e,20180813070756,
 ,,,,,buiteNLand 2 VMBO-KGT Werkboek,c43e7f7e-55b7-486e-98d2-39e3ab090af1,20180830085853,
-Aardrijkskunde,2,vmbo t / havo,buiteNLand,37786bd9-cc96-4fb3-a78d-3a7f9dbe2f31,buiteNLand 2 VMBO-TH Leerboek,967db9d6-5241-417d-a12f-9682b1c99a18,20190109124014,
+Aardrijkskunde,buiteNLand,2,vmbo t / havo,37786bd9-cc96-4fb3-a78d-3a7f9dbe2f31,buiteNLand 2 VMBO-TH Leerboek,967db9d6-5241-417d-a12f-9682b1c99a18,20190109124014,
 ,,,,,buiteNLand 2 VMBO-TH Werkboek,bce0ab28-f843-4cb0-9cb8-027c903e06c4,20190219082455,
-Aardrijkskunde,2,vwo,buiteNLand,00ac7080-32c1-4985-81c1-cfc63451104d,buiteNLand 2 VWO Leerboek,83f4b14d-0fde-4255-9867-19c88aafce9d,20181227083733,
+Aardrijkskunde,buiteNLand,2,vwo,00ac7080-32c1-4985-81c1-cfc63451104d,buiteNLand 2 VWO Leerboek,83f4b14d-0fde-4255-9867-19c88aafce9d,20181227083733,
 ,,,,,buiteNLand 2 VWO Werkboek,93535daa-a0b6-4f70-bee0-cd55575643ed,20190226115931,
-Aardrijkskunde,3,havo,buiteNLand,cc2873b3-a9d5-46d1-828f-384a9291197d,buiteNLand 3 HAVO Leerboek,4abe91aa-a1bf-4496-acfb-9b5723aef76b,20191016070545,
+Aardrijkskunde,buiteNLand,3,havo,cc2873b3-a9d5-46d1-828f-384a9291197d,buiteNLand 3 HAVO Leerboek,4abe91aa-a1bf-4496-acfb-9b5723aef76b,20191016070545,
 ,,,,,buiteNLand 3 HAVO Werkboek,3eef36a6-e58c-4dd2-9956-27e3738e441f,20200106095242,
-Aardrijkskunde,3,havo,buiteNLand,62bbffa7-b28c-4128-a7b0-99b6c553ce9e,buiteNLand 3 HAVO Leerboek,4abe91aa-a1bf-4496-acfb-9b5723aef76b,20191016070545,
+Aardrijkskunde,buiteNLand,3,havo,62bbffa7-b28c-4128-a7b0-99b6c553ce9e,buiteNLand 3 HAVO Leerboek,4abe91aa-a1bf-4496-acfb-9b5723aef76b,20191016070545,
 ,,,,,buiteNLand 3 HAVO Werkboek,3eef36a6-e58c-4dd2-9956-27e3738e441f,20200106095242,
-Aardrijkskunde,3,vmbo bk,buiteNLand,a9afc0fa-df25-41a1-8395-863bea4eb5b9,buiteNLand 3 VMBO-BK Leerboek,7212cb00-749a-4bbc-aa51-4b27c7fdb4ff,20180424093000,
+Aardrijkskunde,buiteNLand,3,vmbo bk,a9afc0fa-df25-41a1-8395-863bea4eb5b9,buiteNLand 3 VMBO-BK Leerboek,7212cb00-749a-4bbc-aa51-4b27c7fdb4ff,20180424093000,
 ,,,,,buiteNLand 3 VMBO-BK Werkboek,72a0ee83-73ee-43c8-9a09-ab54018f3be9,20180424080004,
 ,,,,,De Kleine Bosatlas 61e editie,9c53b1b3-90ca-431b-af3f-e32c6aa2c1d6,20230323100231,964cde68-c4c4-4b7c-9c02-a986b1fe67f1
-Aardrijkskunde,3,vmbo gt,buiteNLand,5bca8750-71ef-4dc6-9c1c-ddd8b4583811,buiteNLand 3 VMBO-GT Leerboek,8b930ea3-69f7-40d1-8fb2-28fd5cf0b887,20180424093926,
+Aardrijkskunde,buiteNLand,3,vmbo gt,5bca8750-71ef-4dc6-9c1c-ddd8b4583811,buiteNLand 3 VMBO-GT Leerboek,8b930ea3-69f7-40d1-8fb2-28fd5cf0b887,20180424093926,
 ,,,,,buiteNLand 3 VMBO-GT Werkboek,a872ab80-27cb-40f7-9ab5-23d5b6705c47,20180424081055,
 ,,,,,De Kleine Bosatlas 61e editie,9c53b1b3-90ca-431b-af3f-e32c6aa2c1d6,20230323100231,964cde68-c4c4-4b7c-9c02-a986b1fe67f1
-Aardrijkskunde,3,vmbo gt,buiteNLand,ce4074a9-f6af-4492-9467-019836d3f948,buiteNLand Leerboek 3 vmbo-gt FLEX zonder antw. (4e Ed.),d2e4c6cc-6ef9-4436-a2f3-acc49ef557b3,20230607074609,6ba32010-d0fe-4183-987b-f54ec1027a6e
-Aardrijkskunde,3,vwo,buiteNLand,33a1a8f9-59fd-4983-98ea-bc7d9ddcee51,buiteNLand 3 VWO Engels Leerboek,6a502fb1-8224-47d7-bd62-63051667190e,20200212083546,
+Aardrijkskunde,buiteNLand,3,vmbo gt,ce4074a9-f6af-4492-9467-019836d3f948,buiteNLand Leerboek 3 vmbo-gt FLEX zonder antw. (4e Ed.),d2e4c6cc-6ef9-4436-a2f3-acc49ef557b3,20230607074609,6ba32010-d0fe-4183-987b-f54ec1027a6e
+Aardrijkskunde,buiteNLand,3,vwo,33a1a8f9-59fd-4983-98ea-bc7d9ddcee51,buiteNLand 3 VWO Engels Leerboek,6a502fb1-8224-47d7-bd62-63051667190e,20200212083546,
 ,,,,,buiteNLand 3 VWO Engels Werkboek,f9e93a93-e9cd-47a0-95a0-a2b19b69a806,20200813121323,
-Aardrijkskunde,3,vwo,buiteNLand,7f58a059-ceeb-409a-87c7-02cea2438bfa,buiteNLand 3 VWO Leerboek,ca8ad8b4-8bbf-4252-bc63-885d09e931af,20190820125249,
+Aardrijkskunde,buiteNLand,3,vwo,7f58a059-ceeb-409a-87c7-02cea2438bfa,buiteNLand 3 VWO Leerboek,ca8ad8b4-8bbf-4252-bc63-885d09e931af,20190820125249,
 ,,,,,buiteNLand 3 VWO Werkboek,949a3439-5e60-4f5f-8528-db0c24c279cb,20190918110835,
-Aardrijkskunde,4,havo,buiteNLand,98795829-67cb-400b-9d95-acae54159cd1,buiteNLand 4 HAVO,edbb180b-73c9-45e9-9f50-6508eb7b30e7,20170622103420,
+Aardrijkskunde,buiteNLand,4,havo,98795829-67cb-400b-9d95-acae54159cd1,buiteNLand 4 HAVO,edbb180b-73c9-45e9-9f50-6508eb7b30e7,20170622103420,
 ,,,,,buiteNLand 4 HAVO Opdrachtenboek,2d02344f-f587-42f1-96a4-02f5f467de04,20170509092602,
-Aardrijkskunde,4,havo,buiteNLand,05000e9a-6820-4f79-9222-feef48ddb7b5,BuiteNLand 4 HAVO Flex Boek (4.0e Ed.),b960bde6-d6d8-45bf-b7b4-3dbd3c718b99,20220803091122,37dc8d07-de8c-4c2c-9429-8f71262b7700
-Aardrijkskunde,4,havo,buiteNLand,376b1827-4166-45ca-8931-4b7cc7114719,buiteNLand 4havo Editie 4.1,d1c53da5-b53a-4fda-b761-35285dc98008,20230710114214,85303f98-dd4f-4189-8194-d97c787db745
-Aardrijkskunde,4,vmbo bk,buiteNLand,244a0a5c-18ae-471e-8c72-75ec1457f5e0,BNL3 4 vmbo-bk leerboek FLEX,99e67133-74d3-4f01-84e2-a5ff6a846b63,20210708090312,99ec1720-7869-4c3e-8c5e-a1e9849c9b6d
+Aardrijkskunde,buiteNLand,4,havo,05000e9a-6820-4f79-9222-feef48ddb7b5,BuiteNLand 4 HAVO Flex Boek (4.0e Ed.),b960bde6-d6d8-45bf-b7b4-3dbd3c718b99,20220803091122,37dc8d07-de8c-4c2c-9429-8f71262b7700
+Aardrijkskunde,buiteNLand,4,havo,376b1827-4166-45ca-8931-4b7cc7114719,buiteNLand 4havo Editie 4.1,d1c53da5-b53a-4fda-b761-35285dc98008,20230710114214,85303f98-dd4f-4189-8194-d97c787db745
+Aardrijkskunde,buiteNLand,4,vmbo bk,244a0a5c-18ae-471e-8c72-75ec1457f5e0,BNL3 4 vmbo-bk leerboek FLEX,99e67133-74d3-4f01-84e2-a5ff6a846b63,20210708090312,99ec1720-7869-4c3e-8c5e-a1e9849c9b6d
 ,,,,,BNL3 4 vmbo-bk werkboek FLEX,d82af78c-86fc-476e-9b35-cd7500750244,20210616124834,74ace497-0ab4-4cfb-8b75-d938d70a6c53
 ,,,,,De Kleine Bosatlas 61e editie,9c53b1b3-90ca-431b-af3f-e32c6aa2c1d6,20230323100231,964cde68-c4c4-4b7c-9c02-a986b1fe67f1
-Aardrijkskunde,4,vmbo bk,buiteNLand,dab9b81c-b4a9-4af4-9221-48769a9d119a,buiteNLand 4 VMBO-BK Leerboek,cecff864-9744-4263-b09e-75aeb09caf01,20180719062454,
+Aardrijkskunde,buiteNLand,4,vmbo bk,dab9b81c-b4a9-4af4-9221-48769a9d119a,buiteNLand 4 VMBO-BK Leerboek,cecff864-9744-4263-b09e-75aeb09caf01,20180719062454,
 ,,,,,buiteNLand 4 VMBO-BK Werkboek,4f52640e-c897-40c5-b26e-288e6513d298,20180905200656,
 ,,,,,De Kleine Bosatlas 61e editie,9c53b1b3-90ca-431b-af3f-e32c6aa2c1d6,20230323100231,964cde68-c4c4-4b7c-9c02-a986b1fe67f1
-Aardrijkskunde,4,vmbo gt,buiteNLand,487d790f-3e98-4f06-9eb4-eb27aa3f18b1,buiteNLand 4 VMBO-GT Leerboek,b9de6e81-ad5b-4b8c-81ce-5d13fc13931b,20180719063945,
+Aardrijkskunde,buiteNLand,4,vmbo gt,487d790f-3e98-4f06-9eb4-eb27aa3f18b1,buiteNLand 4 VMBO-GT Leerboek,b9de6e81-ad5b-4b8c-81ce-5d13fc13931b,20180719063945,
 ,,,,,buiteNLand 4 VMBO-GT Werkboek,0a060944-cab1-4a86-9cdc-2a050407b9ce,20180905200519,
 ,,,,,De Kleine Bosatlas 61e editie,9c53b1b3-90ca-431b-af3f-e32c6aa2c1d6,20230323100231,964cde68-c4c4-4b7c-9c02-a986b1fe67f1
-Aardrijkskunde,4,vmbo gt,buiteNLand,801209b0-36c0-4776-b47c-a0d8d46bbb64,BNL3 4 vmbo-gt leerboek FLEX,0e8093e8-6b3f-46e7-89ec-87de77f8e331,20210616125228,9855fde2-5484-432f-98a0-ce963cd0c057
+Aardrijkskunde,buiteNLand,4,vmbo gt,801209b0-36c0-4776-b47c-a0d8d46bbb64,BNL3 4 vmbo-gt leerboek FLEX,0e8093e8-6b3f-46e7-89ec-87de77f8e331,20210616125228,9855fde2-5484-432f-98a0-ce963cd0c057
 ,,,,,BNL3 4 vmbo-gt werkboek FLEX,f5c2212e-da73-4e2e-8034-ffa9d6977e8b,20210616125629,6db029eb-5b2d-49d1-a199-de6d459e6494
 ,,,,,De Kleine Bosatlas 61e editie,9c53b1b3-90ca-431b-af3f-e32c6aa2c1d6,20230323100231,964cde68-c4c4-4b7c-9c02-a986b1fe67f1
-Aardrijkskunde,4,vwo,buiteNLand,41f285ef-de06-40f4-8905-fb9de246c7a0,buiteNLand 4 VWO,977d5fce-8d79-4b4a-8693-aaab1fd38d76,20170509093750,
+Aardrijkskunde,buiteNLand,4,vwo,41f285ef-de06-40f4-8905-fb9de246c7a0,buiteNLand 4 VWO,977d5fce-8d79-4b4a-8693-aaab1fd38d76,20170509093750,
 ,,,,,buiteNLand 4 VWO Opdrachtenboek,e02b4c76-75e4-4606-b4f1-4c55f2f8fe70,20180502114552,
-Aardrijkskunde,4,vwo,buiteNLand,f4b1b990-3925-46ad-83ec-1e82a22063f7,buiteNLand 4 VWO Flex Boek,2e26fad4-b58d-4452-a608-e89f50dff531,20221010091734,b784b825-9ec8-4055-b050-53bb7ee1cb82
-Aardrijkskunde,4,vwo,buiteNLand,ccd4bf00-596e-4c1b-9f4f-4e17581e6b4b,buiteNLand 4vwo Editie 4.1,fd3144c5-1495-4035-9f24-a9b863b07e32,20230705080925,0b63cfec-d4e0-4bd9-adb3-8fe5625b0c99
-Aardrijkskunde,5,havo,buiteNLand,a528ba1d-4dc7-43ff-a3fe-731efb9fd656,buiteNLand 5 HAVO LB,c94c441d-a5f5-4a8f-9fc0-368992494520,20180424123011,
+Aardrijkskunde,buiteNLand,4,vwo,f4b1b990-3925-46ad-83ec-1e82a22063f7,buiteNLand 4 VWO Flex Boek,2e26fad4-b58d-4452-a608-e89f50dff531,20221010091734,b784b825-9ec8-4055-b050-53bb7ee1cb82
+Aardrijkskunde,buiteNLand,4,vwo,ccd4bf00-596e-4c1b-9f4f-4e17581e6b4b,buiteNLand 4vwo Editie 4.1,fd3144c5-1495-4035-9f24-a9b863b07e32,20230705080925,0b63cfec-d4e0-4bd9-adb3-8fe5625b0c99
+Aardrijkskunde,buiteNLand,5,havo,a528ba1d-4dc7-43ff-a3fe-731efb9fd656,buiteNLand 5 HAVO LB,c94c441d-a5f5-4a8f-9fc0-368992494520,20180424123011,
 ,,,,,buiteNLand 5 HAVO Opdrachtenboek,10db049c-c2b4-47a7-a7cb-046af963a9f5,20180424121115,
-Aardrijkskunde,5,havo,buiteNLand,0182e657-5edb-449e-97fe-b08ba5918055,buiteNland aardrijkskunde 5 havo Leerwerkboek 4e editie FLEX,3b393cca-708a-4451-8d2a-27584edb31ab,20220707125808,59ba9de9-9df1-47a1-a30c-d09043994506
-Aardrijkskunde,5,havo,buiteNLand,06183916-2584-4216-8eb8-4b0a7d061706,buiteNLand 5havo Editie 4.1,ab5fbd27-718c-4cfc-bdcf-6bd72bdc6c50,20230710115657,322ab5a4-e619-43df-ab17-1cea943f0fe4
-Aardrijkskunde,5,vwo,buiteNLand,8d426f52-b3dc-4b52-8b66-7482aee51f15,buiteNLand 5 VWO LB,8ae44685-efd7-4be0-b778-02ec5a90f9b2,20180424122028,
+Aardrijkskunde,buiteNLand,5,havo,0182e657-5edb-449e-97fe-b08ba5918055,buiteNland aardrijkskunde 5 havo Leerwerkboek 4e editie FLEX,3b393cca-708a-4451-8d2a-27584edb31ab,20220707125808,59ba9de9-9df1-47a1-a30c-d09043994506
+Aardrijkskunde,buiteNLand,5,havo,06183916-2584-4216-8eb8-4b0a7d061706,buiteNLand 5havo Editie 4.1,ab5fbd27-718c-4cfc-bdcf-6bd72bdc6c50,20230710115657,322ab5a4-e619-43df-ab17-1cea943f0fe4
+Aardrijkskunde,buiteNLand,5,vwo,8d426f52-b3dc-4b52-8b66-7482aee51f15,buiteNLand 5 VWO LB,8ae44685-efd7-4be0-b778-02ec5a90f9b2,20180424122028,
 ,,,,,buiteNLand 5 VWO Opdrachtenboek,feb1698e-eb78-4882-bd32-447f13a199fe,20180424124707,
-Aardrijkskunde,5,vwo,buiteNLand,a87bd9f7-ee38-4f7c-a870-4f617f4f5dfd,Ebook buiteNLand 5VWO (4.0 Ed.),fb68795a-21da-4f50-b8da-c1d9197d4be9,20220708094608,e2db935c-240e-4a9c-93e0-cfc787187198
-Aardrijkskunde,5,vwo,buiteNLand,fa343a9a-4408-4612-b055-5c9a1a111f9d,buiteNLand 5vwo Editie 4.1,0366b9d6-17d0-4c44-bd08-c6a1bf4fc0bb,20230711063428,052affb5-dc5e-43b9-bc7b-7624759f22fe
-Aardrijkskunde,6,vwo,buiteNLand,abcb2e59-eed5-4548-b2e3-69a10ab6ddba,buiteNLand 6 VWO Leerboek,caac2235-7be9-43c7-a121-9ffea4b2dd1e,20180813071734,fa33632c-0538-459d-a165-ac2834b245de
+Aardrijkskunde,buiteNLand,5,vwo,a87bd9f7-ee38-4f7c-a870-4f617f4f5dfd,Ebook buiteNLand 5VWO (4.0 Ed.),fb68795a-21da-4f50-b8da-c1d9197d4be9,20220708094608,e2db935c-240e-4a9c-93e0-cfc787187198
+Aardrijkskunde,buiteNLand,5,vwo,fa343a9a-4408-4612-b055-5c9a1a111f9d,buiteNLand 5vwo Editie 4.1,0366b9d6-17d0-4c44-bd08-c6a1bf4fc0bb,20230711063428,052affb5-dc5e-43b9-bc7b-7624759f22fe
+Aardrijkskunde,buiteNLand,6,vwo,abcb2e59-eed5-4548-b2e3-69a10ab6ddba,buiteNLand 6 VWO Leerboek,caac2235-7be9-43c7-a121-9ffea4b2dd1e,20180813071734,fa33632c-0538-459d-a165-ac2834b245de
 ,,,,,buiteNLand 6 VWO Opdrachtenboek,ee94c100-2be5-4f2a-9da0-bf39c8c8d34a,20180813072612,3fda8fa0-5531-4dc9-96d4-1797380b008e
-Aardrijkskunde,6,vwo,buiteNLand,991e6d59-32d9-4b2d-a1e2-9da08dba912c,Leerboek 6 vwo FLEX zonder antw. (4e Ed.),b4855bb9-5cef-49b8-83ed-5dee46fd92e9,20240320064203,4781d5bc-ce6f-44cc-bcdb-e15e1f5469a2
-Biologie,1,havo / vwo,Nectar,2ad36d26-134f-4d71-aec0-4f1c8ca07cc4,Nectar 5e editie havo/vwo English year 1 textbook,8b9db74d-2571-4b39-84d7-fd38019c3bfe,20180227095715,
+Aardrijkskunde,buiteNLand,6,vwo,991e6d59-32d9-4b2d-a1e2-9da08dba912c,Leerboek 6 vwo FLEX zonder antw. (4e Ed.),b4855bb9-5cef-49b8-83ed-5dee46fd92e9,20240320064203,4781d5bc-ce6f-44cc-bcdb-e15e1f5469a2
+Biologie,Nectar,1,havo / vwo,2ad36d26-134f-4d71-aec0-4f1c8ca07cc4,Nectar 5e editie havo/vwo English year 1 textbook,8b9db74d-2571-4b39-84d7-fd38019c3bfe,20180227095715,
 ,,,,,Nectar 5e editie havo/vwo English year 1 workbook A,e02c61b4-b76a-4dcd-b796-6d2d907e97ea,20170124084901,
 ,,,,,Nectar 5e editie havo/vwo English year 1 workbook B,18d5ae9a-0897-4417-9e83-17e76f173147,20180226072841,
-Biologie,1,havo / vwo,Nectar,6693a919-6d87-4815-9756-7cbdacb15758,Nectar 5e editie biologie havo / vwo deel 1 leerboek,5e8d20b4-e7f2-4144-afdf-503f0b10cca6,20180227100655,
+Biologie,Nectar,1,havo / vwo,6693a919-6d87-4815-9756-7cbdacb15758,Nectar 5e editie biologie havo / vwo deel 1 leerboek,5e8d20b4-e7f2-4144-afdf-503f0b10cca6,20180227100655,
 ,,,,,Nectar 5e editie biologie havo / vwo deel 1 werkboek A,dfac6c2e-8c7b-49e0-810a-70f37e414a81,20180227104111,
 ,,,,,Nectar 5e editie biologie havo / vwo deel 1 werkboek B,e3c15ec6-ca9f-4c3d-b785-f070d0e9bf91,20180227103347,
 ,,,,,Nectar 5e editie biologie havo / vwo deel 1 leerwerkboek A FLEX,58a91987-18be-4ff9-82a5-7155ee9cee56,20210603131739,
 ,,,,,Nectar 5e editie biologie havo / vwo deel 1 leerwerkboek B FLEX,44111890-3382-4602-90b8-b6c1ac6ecbf0,20210603132440,
-Biologie,1,havo / vwo,Nectar,75595e96-8704-4fc8-b291-e213cbb0a32a,Nectar 5e editie biologie havo / vwo deel 1 leerboek,5e8d20b4-e7f2-4144-afdf-503f0b10cca6,20180227100655,
+Biologie,Nectar,1,havo / vwo,75595e96-8704-4fc8-b291-e213cbb0a32a,Nectar 5e editie biologie havo / vwo deel 1 leerboek,5e8d20b4-e7f2-4144-afdf-503f0b10cca6,20180227100655,
 ,,,,,Nectar 5e editie biologie havo / vwo deel 1 werkboek A,dfac6c2e-8c7b-49e0-810a-70f37e414a81,20180227104111,
 ,,,,,Nectar 5e editie biologie havo / vwo deel 1 werkboek B,e3c15ec6-ca9f-4c3d-b785-f070d0e9bf91,20180227103347,
 ,,,,,Nectar 5e editie biologie havo / vwo deel 1 leerwerkboek A FLEX,58a91987-18be-4ff9-82a5-7155ee9cee56,20210603131739,
 ,,,,,Nectar 5e editie biologie havo / vwo deel 1 leerwerkboek B FLEX,44111890-3382-4602-90b8-b6c1ac6ecbf0,20210603132440,
-Biologie,1,vmbo bk,Nectar,08518a49-27f9-41a3-91d7-89717b935721,Nectar 5e editie biologie vmbo-b/k deel 1 leerwerkboek A,019c00b5-3d2b-4fb3-ac02-a680659c3d4f,20180212130317,
+Biologie,Nectar,1,vmbo bk,08518a49-27f9-41a3-91d7-89717b935721,Nectar 5e editie biologie vmbo-b/k deel 1 leerwerkboek A,019c00b5-3d2b-4fb3-ac02-a680659c3d4f,20180212130317,
 ,,,,,Nectar 5e editie biologie vmbo-b/k deel 1 leerwerkboek B,336bfbf2-0eef-44aa-9b4a-574dc8ce5a4d,20180212123638,
-Biologie,1,vmbo kgt,Nectar,0dfda7bb-4ad2-4dce-85b7-cbd8aae6736e,Nectar 5e editie biologie vmbo-kgt deel 1 leerwerkboek A FLEX,c985b97d-2d86-4859-9987-fe7664319ef3,20200629160952,
+Biologie,Nectar,1,vmbo kgt,0dfda7bb-4ad2-4dce-85b7-cbd8aae6736e,Nectar 5e editie biologie vmbo-kgt deel 1 leerwerkboek A FLEX,c985b97d-2d86-4859-9987-fe7664319ef3,20200629160952,
 ,,,,,Nectar 5e editie biologie vmbo-kgt deel 1 leerwerkboek B FLEX,639e0a35-8a58-41d5-b650-b39fbec53ce3,20200629155728,
 ,,,,,Nectar 5e editie biologie vmbo-t/havo deel 1 leerwerkboek A FLEX,5b4169c4-838f-4452-bfca-e4e7f5f3b307,20210603120439,
 ,,,,,Nectar 5e editie biologie vmbo-t/havo deel 1 leerwerkboek B FLEX,b849a168-61c8-4e21-8b8b-d4964ed9acda,20210603121132,
@@ -98,65 +98,110 @@ Biologie,1,vmbo kgt,Nectar,0dfda7bb-4ad2-4dce-85b7-cbd8aae6736e,Nectar 5e editie
 ,,,,,Nectar 5e editie biologie vmbo-kgt deel 2 leerwerkboek B FLEX,78aee193-0227-4700-a610-4ff6b4ae0717,20200629162059,
 ,,,,,Nectar 5e editie biologie vmbo-t/havo deel 2 leerwerkboek A FLEX,383f05dd-e787-4fc7-b6a5-f9b1b68fa56c,20210603124942,
 ,,,,,Nectar 5e editie biologie vmbo-t/havo deel 2 leerwerkboek B FLEX,368fca75-7906-4cad-aa90-15371e190456,20210603125844,
-Biologie,1,vmbo kgt,Nectar,2adf847b-4458-4b84-ad81-32ce30f8769a,Nectar 5e editie biologie vmbo-kgt deel 1 leerboek,6a8047cd-0337-4cc8-87d7-a360c208cd8c,20170628113838,
+Biologie,Nectar,1,vmbo kgt,2adf847b-4458-4b84-ad81-32ce30f8769a,Nectar 5e editie biologie vmbo-kgt deel 1 leerboek,6a8047cd-0337-4cc8-87d7-a360c208cd8c,20170628113838,
 ,,,,,Nectar 5e editie biologie vmbo-kgt deel 1 werkboek A,f206449f-2edf-4920-96c1-14453c2f4bfc,20180227102701,
 ,,,,,Nectar 5e editie biologie vmbo-kgt deel 1 werkboek B,257a60e8-7f8a-481d-9eb1-05e7f7ccee6f,20180212131600,
-Biologie,1,vmbo t / havo,Nectar,2077e2c9-d4bc-46d0-bfd1-29b25614f76c,Nectar 5e editie biologie vmbo-t/havo deel 1 leerboek,3fd49cf0-7072-444d-94d1-7108c417d46f,20170718121552,
+Biologie,Nectar,1,vmbo t / havo,2077e2c9-d4bc-46d0-bfd1-29b25614f76c,Nectar 5e editie biologie vmbo-t/havo deel 1 leerboek,3fd49cf0-7072-444d-94d1-7108c417d46f,20170718121552,
 ,,,,,Nectar 5e editie biologie vmbo-t/havo deel 1 werkboek A,c9806e5c-2746-4ad4-9dd5-53969811fc10,20180227101441,
 ,,,,,Nectar 5e editie biologie vmbo-t/havo deel 1 werkboek B,827064c4-b915-42e3-8ece-069a62746ac2,20180227083209,
 ,,,,,Nectar 5e editie biologie vmbo-t/havo deel 1 leerwerkboek A FLEX,5b4169c4-838f-4452-bfca-e4e7f5f3b307,20210603120439,
 ,,,,,Nectar 5e editie biologie vmbo-t/havo deel 1 leerwerkboek B FLEX,b849a168-61c8-4e21-8b8b-d4964ed9acda,20210603121132,
-Biologie,1,vmbo t / havo,Nectar,88a9dbb4-f21f-44c6-8bc0-59fecbabe131,Nectar 5e editie biologie vmbo-t/havo deel 1 leerboek,3fd49cf0-7072-444d-94d1-7108c417d46f,20170718121552,
+Biologie,Nectar,1,vmbo t / havo,88a9dbb4-f21f-44c6-8bc0-59fecbabe131,Nectar 5e editie biologie vmbo-t/havo deel 1 leerboek,3fd49cf0-7072-444d-94d1-7108c417d46f,20170718121552,
 ,,,,,Nectar 5e editie biologie vmbo-t/havo deel 1 werkboek A,c9806e5c-2746-4ad4-9dd5-53969811fc10,20180227101441,
 ,,,,,Nectar 5e editie biologie vmbo-t/havo deel 1 werkboek B,827064c4-b915-42e3-8ece-069a62746ac2,20180227083209,
 ,,,,,Nectar 5e editie biologie vmbo-t/havo deel 1 leerwerkboek A FLEX,5b4169c4-838f-4452-bfca-e4e7f5f3b307,20210603120439,
 ,,,,,Nectar 5e editie biologie vmbo-t/havo deel 1 leerwerkboek B FLEX,b849a168-61c8-4e21-8b8b-d4964ed9acda,20210603121132,
-Biologie,1,vwo,Nectar,5f008ded-4201-4c6d-bef1-c777911bded9,Nectar 5e editie biologie vwo deel 1 leerboek,3723c8af-b2dc-4779-833a-0f02c433465e,20180227090127,
+Biologie,Nectar,1,vwo,5f008ded-4201-4c6d-bef1-c777911bded9,Nectar 5e editie biologie vwo deel 1 leerboek,3723c8af-b2dc-4779-833a-0f02c433465e,20180227090127,
 ,,,,,Nectar 5e editie biologie vwo deel 1 werkboek A,49d21b9a-7e92-4a95-bc75-0d9bde481064,20180227094230,
 ,,,,,Nectar 5e editie biologie vwo deel 1 werkboek B,aea72468-3c40-44fb-8d4f-51ba1998a6dc,20180227091417,
 ,,,,,Nectar 5e editie biologie vwo deel 1 leerwerkboek A FLEX,dba80c5b-ed69-4704-aa9c-e49735b62f81,20210603122740,
 ,,,,,Nectar 5e editie biologie vwo deel 1 leerwerkboek B FLEX,b69d2cd0-6143-4e63-9c5a-ba69fdc75cd9,20210603123632,
-Biologie,1,vwo,Nectar,81628663-150f-4358-b948-31736d8c4fd3,Nectar 5e editie biologie vwo deel 1 leerboek,3723c8af-b2dc-4779-833a-0f02c433465e,20180227090127,
+Biologie,Nectar,1,vwo,81628663-150f-4358-b948-31736d8c4fd3,Nectar 5e editie biologie vwo deel 1 leerboek,3723c8af-b2dc-4779-833a-0f02c433465e,20180227090127,
 ,,,,,Nectar 5e editie biologie vwo deel 1 werkboek A,49d21b9a-7e92-4a95-bc75-0d9bde481064,20180227094230,
 ,,,,,Nectar 5e editie biologie vwo deel 1 werkboek B,aea72468-3c40-44fb-8d4f-51ba1998a6dc,20180227091417,
 ,,,,,Nectar 5e editie biologie vwo deel 1 leerwerkboek A FLEX,dba80c5b-ed69-4704-aa9c-e49735b62f81,20210603122740,
 ,,,,,Nectar 5e editie biologie vwo deel 1 leerwerkboek B FLEX,b69d2cd0-6143-4e63-9c5a-ba69fdc75cd9,20210603123632,
-Biologie,2,havo / vwo,Nectar,84313ccc-7143-449f-9700-179745fad6f0,Nectar havo/vwo 2-3 English (5e ed.) Textbook,cbd0652b-6d5c-4691-b3a3-93dde5199e28,20181019110810,d7d5d3c0-b9e7-4468-b3fc-51816a60850b
+Biologie,Nectar,2,havo / vwo,84313ccc-7143-449f-9700-179745fad6f0,Nectar havo/vwo 2-3 English (5e ed.) Textbook,cbd0652b-6d5c-4691-b3a3-93dde5199e28,20181019110810,d7d5d3c0-b9e7-4468-b3fc-51816a60850b
 ,,,,,Nectar havo/vwo 2-3 English (5e ed.) Workbook A,1ee56d11-626c-4487-93ee-1f6f284a72af,20181025104230,5924e1d6-71dd-456f-81c0-04661c8a8cb5
 ,,,,,Nectar havo/vwo 2-3 English (5e ed.) Workbook B,f20356c7-d434-4a0a-bb87-4d21cb11e3ee,20181227133421,8a593f61-6a71-498d-834c-4821df5e4822
-Biologie,2,vmbo bk,Nectar,9b0f4147-f249-4843-9ec0-614500c9e492,Nectar 5e editie 2 vmbo-bk Leerwerkboek A,efb55f1d-d943-4989-9fad-8d32c22502ed,20181005101511,
+Biologie,Nectar,2,vmbo bk,9b0f4147-f249-4843-9ec0-614500c9e492,Nectar 5e editie 2 vmbo-bk Leerwerkboek A,efb55f1d-d943-4989-9fad-8d32c22502ed,20181005101511,
 ,,,,,Nectar 5e editie 2 vmbo-bk Leerwerkboek B,011d8abb-05de-4bb1-9711-08d9f54d098e,20181227095745,
-Biologie,2,vmbo kgt,Nectar,0b8b8c6d-92ac-48cf-9410-cfa9343797a6,Nectar 5e editie biologie vmbo-kgt deel 2 leerwerkboek A FLEX,26a526d4-2a29-41f3-84f8-cdb2ee1b0d7e,20200629153909,
+Biologie,Nectar,2,vmbo kgt,0b8b8c6d-92ac-48cf-9410-cfa9343797a6,Nectar 5e editie biologie vmbo-kgt deel 2 leerwerkboek A FLEX,26a526d4-2a29-41f3-84f8-cdb2ee1b0d7e,20200629153909,
 ,,,,,Nectar 5e editie biologie vmbo-kgt deel 2 leerwerkboek B FLEX,78aee193-0227-4700-a610-4ff6b4ae0717,20200629162059,
 ,,,,,Nectar 5e editie 2 vmbo kgt biologie leerboek,f9c50c25-3a7a-40cd-94fe-9d1c39106f2e,20180918112920,
 ,,,,,Nectar 5e editie 2 vmbo kgt Biologie Werkboek A,f5749c47-5cd9-4e27-988c-d5e8f87e8dd5,20180918110018,
 ,,,,,Nectar 5e editie 2 vmbo kgt Biologie Werkboek B,c0299ecb-b15e-4f9c-ad78-08eb9337cc9c,20181207134931,
-Biologie,2,vmbo kgt,Nectar,e674d4a5-7188-40ba-bab7-a34cd7dd9334,Nectar 5e editie 2 vmbo kgt Leerboek,f9c50c25-3a7a-40cd-94fe-9d1c39106f2e,20180918112920,
+Biologie,Nectar,2,vmbo kgt,e674d4a5-7188-40ba-bab7-a34cd7dd9334,Nectar 5e editie 2 vmbo kgt Leerboek,f9c50c25-3a7a-40cd-94fe-9d1c39106f2e,20180918112920,
 ,,,,,Nectar 5e editie 2 vmbo kgt Werkboek A,f5749c47-5cd9-4e27-988c-d5e8f87e8dd5,20180918110018,
 ,,,,,Nectar 5e editie 2 vmbo kgt Werkboek B,c0299ecb-b15e-4f9c-ad78-08eb9337cc9c,20181207134931,
-Biologie,2,vmbo t / havo,Nectar,3b7d984d-f282-4e2c-ae16-cfd832ddac90,Nectar 5e editie 2 vmbo-t/havo Leerboek,cdda214e-d7be-4339-a74b-4de1b70d8e76,20190603092408,
+Biologie,Nectar,2,vmbo t / havo,3b7d984d-f282-4e2c-ae16-cfd832ddac90,Nectar 5e editie 2 vmbo-t/havo Leerboek,cdda214e-d7be-4339-a74b-4de1b70d8e76,20190603092408,
 ,,,,,Nectar 5e editie 2 vmbo-t/havo Werkboek A,a33e7285-e2ec-4963-8284-223d04a7ac2a,20190603090646,
 ,,,,,Nectar 5e editie 2 vmbo-t/havo Werkboek B,7a9d4c39-77f4-4e55-9624-5675f2c59f3e,20190603091029,
 ,,,,,Nectar 5e editie 2 vmbo-t/havo leerwerkboek A FLEX,383f05dd-e787-4fc7-b6a5-f9b1b68fa56c,20210603124942,
 ,,,,,Nectar 5e editie 2 vmbo-t/havo leerwerkboek B FLEX,368fca75-7906-4cad-aa90-15371e190456,20210603125844,
-Biologie,2,vmbo t / havo,Nectar,adf17fe8-485b-49a6-82e0-8dbe1f3e904f,Nectar 5e editie biologie vmbo-t/havo deel 2 leerwerkboek A FLEX,383f05dd-e787-4fc7-b6a5-f9b1b68fa56c,20210603124942,
+Biologie,Nectar,2,vmbo t / havo,adf17fe8-485b-49a6-82e0-8dbe1f3e904f,Nectar 5e editie biologie vmbo-t/havo deel 2 leerwerkboek A FLEX,383f05dd-e787-4fc7-b6a5-f9b1b68fa56c,20210603124942,
 ,,,,,Nectar 5e editie biologie vmbo-t/havo deel 2 leerwerkboek B FLEX,368fca75-7906-4cad-aa90-15371e190456,20210603125844,
 ,,,,,Nectar 5e editie 2 vmbo-t/havo Biologie Leerboek,cdda214e-d7be-4339-a74b-4de1b70d8e76,20190603092408,
 ,,,,,Nectar 5e editie 2 vmbo-t/havo Biologie Werkboek A,a33e7285-e2ec-4963-8284-223d04a7ac2a,20190603090646,
 ,,,,,Nectar 5e editie 2 vmbo-t/havo Biologie Werkboek B,7a9d4c39-77f4-4e55-9624-5675f2c59f3e,20190603091029,
-Biologie,"2, 3",havo / vwo,Nectar,4b05565d-d7ee-45dc-ad22-b2450923dbc9,Nectar 5e editie 2-3 havo/vwo Biologie Leerboek,f64da8d0-ab8a-4d02-8f5d-8878bfbc1135,20180711083022,
+Biologie,Nectar,"2, 3",havo / vwo,4b05565d-d7ee-45dc-ad22-b2450923dbc9,Nectar 5e editie 2-3 havo/vwo Biologie Leerboek,f64da8d0-ab8a-4d02-8f5d-8878bfbc1135,20180711083022,
 ,,,,,Nectar 5e editie 2-3 havo/vwo Leerboek FLEX,9e2eaf85-64a4-404f-9120-8a22b7030920,20210224103645,
 ,,,,,Nectar 5e editie 2-3 havo/vwo Werkboek A,43aa0825-2a35-4292-af68-73259cbd1a75,20181002135006,
 ,,,,,Nectar 5e editie 2-3 havo/vwo Werkboek B,88d1c0be-b766-49cc-9544-32b13aacc414,20181207133556,
 ,,,,,Nectar 5e editie 2-3 havo/vwo leerwerkboek A FLEX,029c23ac-dc4f-46c5-a5cd-1034a6aaeeb8,20201028141354,
 ,,,,,Nectar 5e editie 2-3 havo/vwo leerwerkboek B FLEX,79b98995-8edc-4ca6-a249-1479b0485fd0,20201028142344,
-Biologie,"2, 3",havo / vwo,Nectar,89927378-edf4-4b6b-9a17-d5a8655e1c75,Nectar 5e editie biologie havo/vwo deel 2-3 leerwerkboek A FLEX,029c23ac-dc4f-46c5-a5cd-1034a6aaeeb8,20201028141354,
+Biologie,Nectar,"2, 3",havo / vwo,89927378-edf4-4b6b-9a17-d5a8655e1c75,Nectar 5e editie biologie havo/vwo deel 2-3 leerwerkboek A FLEX,029c23ac-dc4f-46c5-a5cd-1034a6aaeeb8,20201028141354,
 ,,,,,Nectar 5e editie biologie havo/vwo deel 2-3 leerwerkboek B FLEX,79b98995-8edc-4ca6-a249-1479b0485fd0,20201028142344,
 ,,,,,Nectar 5e editie 2-3 havo/vwo Biologie Leerboek,f64da8d0-ab8a-4d02-8f5d-8878bfbc1135,20180711083022,
 ,,,,,Nectar 5e editie 2-3 havo/vwo Biologie Werkboek A,43aa0825-2a35-4292-af68-73259cbd1a75,20181002135006,
 ,,,,,Nectar 5e editie 2-3 havo/vwo Biologie Werkboek B,88d1c0be-b766-49cc-9544-32b13aacc414,20181207133556,
-Biologie,"2, 3",vwo,Nectar,fb4af207-c5e2-47b2-9d5e-582ce8d82f58,Nectar 5e editie biologie vwo deel 2-3 leerwerkboek A FLEX,f1608b21-214a-44a8-b25c-b749c3f33281,20210310142149,
+Biologie,Nectar,"2, 3",vwo,b5748f95-f8a5-4c42-88bf-657e05c09757,Nectar 5e editie biologie vwo deel 2-3 leerwerkboek A FLEX,f1608b21-214a-44a8-b25c-b749c3f33281,20210310142149,
 ,,,,,Nectar 5e editie biologie vwo deel 2-3 leerwerkboek B FLEX,eacd1869-deb6-4f0d-af7e-aa5fb07b63ab,20210401084611,
 ,,,,,Nectar 5e editie 2-3 vwo Biologie Leerboek,7a73db3c-abba-4c51-aef0-95804530b148,20181003140835,
 ,,,,,Nectar 5e editie 2-3 vwo Biologie Werkboek A,98b7abec-caf9-4f34-81f8-89c5fb32f5d0,20180918111003,
 ,,,,,Nectar 5e editie 2-3 vwo Biologie Werkboek B,e8e1e76e-5e94-4728-9790-3e78ba988ef8,20181207140222,
+Biologie,Nectar,"2, 3",vwo,eda3cae1-b07c-4402-8389-41f1882b8d57,Nectar 5e editie 2-3 vwo Leerboek,7a73db3c-abba-4c51-aef0-95804530b148,20181003140835,
+,,,,,Nectar 5e editie 2-3 vwo Werkboek A,98b7abec-caf9-4f34-81f8-89c5fb32f5d0,20180918111003,
+,,,,,Nectar 5e editie 2-3 vwo Werkboek B,e8e1e76e-5e94-4728-9790-3e78ba988ef8,20181207140222,
+,,,,,Nectar 5e editie 2-3 vwo leerwerkboek A FLEX,f1608b21-214a-44a8-b25c-b749c3f33281,20210310142149,
+,,,,,Nectar 5e editie 2-3 vwo leerwerkboek B FLEX,eacd1869-deb6-4f0d-af7e-aa5fb07b63ab,20210401084611,
+Biologie,Nectar,3,vmbo b,11d82ac3-fef2-4c01-9f73-5eeaac072ed5,Nectar 4e editie biologie vmbo-basis deel 3A leerwerkboek,e516bf0a-501b-4e6a-bd35-2578dc818348,20170220131758,
+,,,,,Nectar 4e editie biologie vmbo-basis deel 3B leerwerkboek,7e4a06c9-2b08-4786-b8d3-9328ed05ae13,20180213143823,
+Biologie,Nectar,3,vmbo b,a043b552-737e-49b8-bb36-c2ed8f986a3b,Nectar 5e ed 3 basis FLEX leerwerkboek A,0775abb2-f9ff-46e6-bc60-14c3e1624ea4,20210616093131,
+,,,,,Nectar 5e ed 3 basis FLEX leerwerkboek B,7b162246-5fab-44de-a460-480a647c30dd,20210616093646,
+Biologie,Nectar,3,vmbo gt,6a9fb704-2e41-472a-b302-b4dfa78d92b7,Nectar 4e editie biologie vmbo-gt deel 3 leerboek,89be5b37-5674-4574-ad20-9b5ba18d92f2,20170220134602,
+,,,,,Nectar 4e editie biologie vmbo-gt deel 3A werkboek,3fc7bebe-f618-4244-9a98-d67db38ad2ca,20180213134011,
+,,,,,Nectar 4e editie biologie vmbo-gt deel 3B werkboek,9f7e9aae-c5d3-462c-a310-5cc74b710dfc,20170220132856,
+Biologie,Nectar,3,vmbo gt,dfd2b085-8ab0-4f3e-a581-b1e2b50ce4b8,Nectar 5e ed 3 gt FLEX leerwerkboek A,23a0937f-1a44-46d9-a968-a54320b7bc9e,20210820063406,
+,,,,,Nectar 5e ed 3 gt FLEX leerwerkboek B,0ae0418b-2449-4fa6-8eb0-039cd2e282c2,20210817122258,
+Biologie,Nectar,3,vmbo k,7d7c75de-c474-43aa-b67e-1799eb3e72d0,Nectar 4e editie biologie vmbo-kader deel 3 leerboek,b181d15b-f117-4163-a9fa-71948dce2f99,20170220135134,
+,,,,,Nectar 4e editie biologie vmbo-kader deel 3A werkboek,0c92021b-5f9c-4034-a563-c500a438811c,20180213084157,
+,,,,,Nectar 4e editie biologie vmbo-kader deel 3B werkboek,6433e373-e72e-4299-a989-d6e832817ba7,20170220133617,
+Biologie,Nectar,3,vmbo k,325e6a2d-4e56-4502-9982-b4db90cea83c,Nectar 5e ed 3 kader FLEX leerwerkboek A,6751d57f-7731-4f86-9352-42ebdcacd899,20210817122851,
+,,,,,Nectar 5e ed 3 kader FLEX leerwerkboek B,dc64376d-393d-440a-846f-e2fac0c98e72,20210817123425,
+Biologie,Nectar,4,havo,48fc6ac6-b527-4273-a068-325e680a62e0,Nectar 4e editie biologie 4 havo leerboek FLEX upgrade,27b2229a-c3ed-48d2-a741-0e68e73d8efc,20220613094243,37a6f8f3-54fc-4b4b-893a-03e0bfc4e8eb
+Biologie,Nectar,4,vmbo b,237c7da8-9a00-472e-a2f1-4bdf903d168f,Leerboek vmbo-basis 4 A (4e Ed.),c23010fc-a406-42df-8250-048ee09ab0a1,20180212140444,
+,,,,,Leerboek vmbo-basis 4 B (4e Ed.),6a5bff26-0fd1-467d-ae7b-33dc468bfa56,20171214144138,
+Biologie,Nectar,4,vmbo b,a3db4419-dce0-41b1-8ccd-c5d7cc8c5666,Nectar 5e ed 4 vmbo-basis leerwerkboek A,aa03b435-0d72-4a06-b029-6cb471a6e5f8,20220912120814,19292b08-6375-40f9-863c-8b2d95a5267b
+,,,,,Nectar 5e ed 4 vmbo-basis leerwerkboek B,74668110-fa10-4b85-af4f-b77c744c1091,20220912122747,31d24878-4650-4968-9c3f-1271e2a461f7
+Biologie,Nectar,4,vmbo gt,4de4e5e5-ea9d-4c33-8bf3-f979a879dee3,Leerboek vmbo-gt 4 (4e Ed.),aedcdd47-8760-43a4-9e3f-ae572dd60045,20180227081400,
+,,,,,Werkboek A vmbo-gt 4 (4e Ed.),35a2c439-7db9-4efd-aa39-94d970cab030,20180214081005,
+,,,,,Werkboek B vmbo-gt 4 (4e Ed.),eb0f6b26-2405-49a3-bfc4-78b698950257,20171005083635,
+,,,,,Leerboek 4e vmbo-gt 4 (4e Ed.) FLEX,70254234-55c0-4c5c-9fe0-40b71f6a28e1,20210315135547,
+Biologie,Nectar,4,vmbo gt,80125b42-5246-4bd0-b1bc-39175c89b341,Nectar 5e ed 4 vmbo-gt leerwerkboek A,af632d13-3a14-4d49-9272-c39d0cad4b1c,20220912125543,c135f104-871a-4c88-ab8e-9d48a310c851
+,,,,,Nectar 5e ed 4 vmbo-gt leerwerkboek B,b66d49e7-4b86-47a2-a77c-4fafc42fa3b0,20220912124947,22de6f73-34f1-4183-870b-457cfad4ed1d
+Biologie,Nectar,4,vmbo k,7f15dbc6-bd78-4dae-a93e-9ed9cdd00c9b,Leerboek vmbo-kader 4 (4e Ed.),9a818029-7102-4d71-bf3f-1899a05f764a,20180213081904,
+,,,,,Werkboek A vmbo-kader 4 (4e Ed.),facf9683-330a-4101-8f33-4048a68cdb6e,20180214073930,
+,,,,,Werkboek B vmbo-kader 4 (4e Ed.),e9abd98d-2dc4-41cb-ada6-610ede10b9da,20170928083651,
+,,,,,Leerboek 4e vmbo-k 4 FLEX,f4a77110-2cf5-4bc3-974f-7ff0821cdd49,20210310135634,
+Biologie,Nectar,4,vmbo k,133387a8-1553-46ef-b7cf-230379237eff,Nectar 5e ed 4 vmbo-kader leerwerkboek A,79091ebc-164a-426b-898f-257a8ed1cdd1,20220912130913,6ef5eff2-f091-4499-aacd-bd32a067de51
+,,,,,Nectar 5e ed 4 vmbo-kader leerwerkboek B,187266d1-0a68-4f51-a833-4589258674ab,20220912131542,c0d90ce0-4eac-46df-8c86-375ccfc4baeb
+Biologie,Nectar,4,vwo,2a786247-755a-480c-b27c-385f785a6a96,Nectar 4e editie biologie 4 vwo leerboek FLEX upgrade,37ca4ef3-9e1d-4fbf-90c4-76b81d6e1a94,20220706141944,a4c7555e-bab7-4077-adea-dea6f7fcaddc
+Biologie,Nectar,5,havo,aeab9226-0959-4cab-a369-88d40f62b3e7,Nectar 4e editie biologie 5 havo leerboek FLEX,419691e9-d3db-4f5c-9e3e-e42ec575f6da,20210512084128,
+,,,,,Nectar editie 4.1 biologie 5 havo leerboek FLEX,810114da-2c5c-418e-afc9-da800f555c17,20221101084406,3b62aaaf-21c0-4a17-91e8-dbccfe33f1e3
+Biologie,Nectar,5,havo,00a8359c-1e33-44c4-ad40-00fc9a882162,Nectar editie 4.1 biologie 5 havo leerboek FLEX,810114da-2c5c-418e-afc9-da800f555c17,20221101084406,3b62aaaf-21c0-4a17-91e8-dbccfe33f1e3
+Biologie,Nectar,5,vwo,4b9bf1e6-34c6-4eae-9d64-af4fe7fd3f6a,Nectar 4e editie biologie 5 vwo leerboek FLEX,0447e257-624c-41b6-b52c-094a3ef46ef9,20210511143928,
+,,,,,Nectar editie 4.1 biologie 5 vwo leerboek FLEX,2afd6210-0fb1-4007-8d2a-b63ef7cad649,20230509102016,e3a8aca5-ef6a-488a-80f1-2295d76e7388
+Biologie,Nectar,5,vwo,3c9f39f7-6a4b-4403-a898-508d1ddcf68f,Nectar editie 4.1 biologie 5 vwo leerboek FLEX,2afd6210-0fb1-4007-8d2a-b63ef7cad649,20230509102016,e3a8aca5-ef6a-488a-80f1-2295d76e7388
+Biologie,Nectar,6,vwo,d97a478f-290e-48cb-a82c-13ddd52bdd32,Nectar 4e editie biologie 6 vwo leerboek FLEX,9bc66c4a-512c-4220-bffd-773828820b8e,20210520072815,
+,,,,,Nectar editie 4.1 biologie 6 vwo leerboek FLEX,cfa0a04d-1835-43af-8339-b88cafd6d99d,20240328063859,4b212dd3-e94c-490d-9fca-7b6c150258a6
