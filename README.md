@@ -72,6 +72,6 @@ Then, just run the main python file with `python3 file.py`
 
 ---
 
-© Tygo Everts | 2022 - 2023  
+© Tygoee | 2022 - 2024  
 This code is licensed under the Unlicense,  
 you can do anything you want with it.
