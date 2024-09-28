@@ -1,0 +1,7 @@
+# Compiled files without extension
+*
+!*/
+!*.*
+
+# Output files
+*.o

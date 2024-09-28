@@ -1,0 +1,7 @@
+{
+    "code-runner.executorMapByFileExtension": {
+        ".asm": "cd $dir && nasm -f elf $fileName && ld -m elf_i386 -s -o $fileNameWithoutExt $fileNameWithoutExt.o && ./$fileNameWithoutExt",
+    },
+    "nasm.checkOnType": true,
+    "nasm.outputFormat": "elf32",
+}
